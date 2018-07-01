@@ -87,10 +87,11 @@ class MainWindow(QMainWindow):
     # 设置备份还原自动化参数界面
     def back_ui(self):
         backup = BackDialog(self)
-        backup.resize(600, 400)
-        backup.setWindowTitle("Backup")
         if backup.exec_():
             print("Create a new task")
+
+    def backup_dialog_init(self):
+        pass
 
     def init_table(self):
         # 先从数据库中读取任务数据
@@ -124,6 +125,13 @@ class MainWindow(QMainWindow):
         self.proceed_button.setEnabled(False)
         self.edit_button.setEnabled(False)
         self.delete_button.setEnabled(False)
+
+
+def run():
+    app = QApplication(sys.argv)
+    main_window = MainWindow()
+    main_window.show()
+    sys.exit(app.exec_())
 
 
 if __name__ == '__main__':
