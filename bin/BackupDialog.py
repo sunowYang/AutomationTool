@@ -2,6 +2,8 @@
 
 import sys
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
 from LabelClick import LabelClick
 
 
@@ -9,29 +11,134 @@ def read_version():
     return list('12345')
 
 
-class BackDialog(QDialog):
+class OptionHeader(QWidget):
+    currentItemChanged = pyqtSignal([int, str])
+
     def __init__(self, parent=None):
-        super(BackDialog, self).__init__(parent)
-        # self.ui_init()
-        self.setWindowTitle("Settings")
-        self.resize(600, 400)
-        self.setLayout(self.add_layout())
+        super(OptionHeader, self).__init__(parent)
+        self.init_ui()
+
+    def init_ui(self):
+        self.backgroundColor = '#E4E4E4'
+        self.selectedColor = '#2CA7F8'
+        self.rowHeight = 40
+        self.currentIndex = 0  # 当前选择的项索引
+        self.listItems = []
+        self.cursorIndex = -1  # 当前光标所在位置的项索引
+        self.setMouseTracking(True)
+        self.setMinimumWidth(120)
+
+    def addItem(self, item):
+        self.listItems.append(item)
+        self.update()
+
+    def setItems(self, items):
+        self.listItems = items
+        self.update()
+
+    def setBackgroundColor(self, color):
+        self.backgroundColor = color
+        self.update()
+
+    def setSelectColor(self, color):
+        self.selectedColor = color
+        self.update()
+
+    def setRowHeight(self, height):
+        self.rowHeight = height
+        self.update()
+
+    def setCurrentIndex(self, idx):
+        self.currentIndex = idx
+        self.currentItemChanged.emit(idx, self.listItems[idx])
+        self.update()
+
+    def paintEvent(self, evt):
+        painter = QPainter(self)
+        painter.setRenderHint(QPainter.Antialiasing, True)
+
+        #画背景色
+        painter.setPen(Qt.NoPen)
+        painter.setBrush(QColor(self.backgroundColor))
+        painter.drawRect(self.rect())
+
+        #画子项
+        for i in range(len(self.listItems)):
+            itemPath = QPainterPath()
+            itemPath.addRect(QRectF(0, i*self.rowHeight, self.width()-1, self.rowHeight-1))
+
+            if i == self.currentIndex:
+                painter.setPen(QColor('#FFFFFF'))
+                painter.fillPath(itemPath, QColor(self.selectedColor))
+            elif i == self.cursorIndex:
+                painter.setPen(QColor('#FFFFFF'))
+                painter.fillPath(itemPath, QColor(self.selectedColor))
+            else:
+                painter.setPen(QColor('#202020'))
+                painter.fillPath(itemPath, QColor(self.backgroundColor))
+
+            painter.drawText(QRect(0, i*self.rowHeight, self.width(), self.rowHeight), Qt.AlignVCenter|Qt.AlignHCenter, self.listItems[i])
+
+    def mouseMoveEvent(self, evt):
+        idx = evt.y() / self.rowHeight
+        if idx >= len(self.listItems):
+            idx = -1
+        if idx < len(self.listItems) and idx != self.cursorIndex:
+            self.update()
+            self.cursorIndex = idx
+
+    def mousePressEvent(self, evt):
+        idx = evt.y()/self.rowHeight
+        if  idx< len(self.listItems):
+            self.currentIndex = idx
+            self.currentItemChanged.emit(idx, self.listItems[idx])
+            self.update()
+
+    def leaveEvent(self, QEvent):
+        self.cursorIndex = -1
+        self.update()
+
+
+
+
+
+class OptionsSettingWnd(QWidget):
+    def __init__(self, parent=None):
+        super(OptionsSettingWnd, self).__init__(parent)
+        self.ui_init()
+        # self.setWindowTitle("Settings")
+        # self.resize(600, 400)
+        # self.setLayout(self.add_layout())
+        # signal
+        # self.button_box.button(QDialogButtonBox.Cancel).clicked.connect(self.close)
 
     def ui_init(self):
-        back_dial = QDial()
-        back_dial.setWindowTitle("Backup")
-        back_dial.resize(600, 300)
-        back_dial.setLayout(self.add_layout())
+        self.setWindowTitle("Backup")
+        self.resize(600, 300)
+        self.setLayout(self.add_layout())
 
     def add_layout(self):
+        tab = QTabWidget()
+        # tab.setTabPosition(QTabWidget.West)
+        # tab.
+        # bar = QTabBar()
+        # bar.setShape(QTabBar.RoundedEast)
+        # bar.setTabButton(0, QTabBar.LeftSide, QPushButton("test"))
+        # tab.setTabBar(bar)
+        tab.addTab(self.add_script_layout(), QIcon(r"..\res\icon_execute.png"), "Download")
+        tab.addTab(QLabel("123"), "mail")
         main_layout = QVBoxLayout()
-        main_layout.addLayout(self.add_script_layout())
-        # main_layout.addLayout()
-        main_layout.addLayout(self.add_package_layout())
-        main_layout.addLayout(self.add_mail_layout())
-        main_layout.addStretch(1)
-        button_box = QDialogButtonBox(QDialogButtonBox.Save | QDialogButtonBox.Cancel)
-        main_layout.addWidget(button_box)
+        main_layout.addWidget(tab)
+
+
+
+        # main_layout.addLayout(self.add_script_layout())
+        # main_layout.addLayout(self.add_package_layout())
+        # main_layout.addLayout(self.add_mail_layout())
+        # main_layout.addStretch(1)
+        # self.button_box = QDialogButtonBox(QDialogButtonBox.Save | QDialogButtonBox.Cancel)
+
+        # main_layout.addWidget(self.button_box)
         return main_layout
 
     def add_split_layout(self):
@@ -92,10 +199,9 @@ class BackDialog(QDialog):
         return mail_layout
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    dialog = BackDialog()
+    dialog = OptionHeader()
     dialog.show()
     app.exec_()
 
