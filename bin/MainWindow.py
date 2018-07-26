@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from BackupDialog import BackDialog
+from option import OptionWnd
 
 
 class MainWindow(QMainWindow):
@@ -69,7 +69,7 @@ class MainWindow(QMainWindow):
         main_frame = QWidget()
         main_frame.setLayout(main_layout)
         self.setCentralWidget(main_frame)
-        # MainWindow.setLayout(self, main_layout)
+        # OptionWnd.setLayout(self, main_layout)
         # self.setLayout(main_layout)
         self.setWindowTitle('TB Automation Tool')
         self.setWindowIcon(QIcon(r'..\res\icon.png'))
@@ -80,14 +80,14 @@ class MainWindow(QMainWindow):
         self.ui_signal()
 
     def ui_signal(self):
-        self.new_task_button.clicked.connect(self.back_ui)
+        self.new_task_button.clicked.connect(self.option_ui)
         self.task_table.itemClicked.connect(self.button_able)
         self.task_table.itemSelectionChanged.connect(self.button_unable)
 
     # 设置备份还原自动化参数界面
-    def back_ui(self):
-        backup = BackDialog(self)
-        if backup.exec_():
+    def option_ui(self):
+        option = OptionWnd()
+        if option.exec_():
             print("Create a new task")
 
     def backup_dialog_init(self):
