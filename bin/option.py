@@ -60,26 +60,27 @@ class NavigationWidget(QWidget):
         painter.setBrush(QColor(self.backgroundColor))
 
         painter.drawRect(self.rect())
-
         # painter.drawRect(0, 0, 200, 340)
         # painter.drawRect(200, 0, 800, 340)
         # painter.drawRect(0, 340, 800, 400)
 
         # 绘所有选项, 根据不同状态，设置不同画笔
         for i in range(len(self.listItems)):
+            image = QImage(r'../res/backup_option/Email.png')
             itemPath = QPainterPath()
             itemPath.addRect(QRectF(0, i * self.rowHeight+1, self.width()-1, self.rowHeight-1))
             if i == self.currentIndex:
                 painter.setPen(QPen(QColor('#48A6F5'), 4))  # 选中就重新设置画笔，线条加粗
                 painter.fillPath(itemPath, QColor(self.selectedColor))
                 painter.drawLine(QLine(self.width(), i * self.rowHeight, self.width(), (i + 1) * self.rowHeight))
+                image = QImage(r'../res/backup_option/Email_active.png')
             elif i == self.cursorIndex:
                 painter.setPen(QColor('#666666'))
                 painter.fillPath(itemPath, QColor(self.selectedColor))
             else:
                 painter.setPen(QColor('#666666'))
                 painter.fillPath(itemPath, QColor(self.backgroundColor))
-            painter.drawImage(QRect(10, i * self.rowHeight + 18, 15, 15), QImage(r'..\res\icon_execute.png'))
+            painter.drawImage(QRect(10, i * self.rowHeight + 18, 15, 15), image)
             painter.drawText(QRect(30, i * self.rowHeight, self.width(), self.rowHeight),
                              Qt.AlignVCenter | Qt.AlignLeft, self.listItems[i])
 
@@ -103,9 +104,13 @@ class NavigationWidget(QWidget):
         self.update()
 
 
-class PageWidget(QWidget):
+class SvnPage(QWidget):
+    StyleSheet = """
+    QCheckBox { color: green;}
+    QComboBox { color: darkblue; }
+    """
     def __init__(self, text, parent=None):
-        super(PageWidget, self).__init__(parent)
+        super(SvnPage, self).__init__(parent)
         self.backgroundColor = ''
         self.pages = text
         self.setFont(QFont("Timers", 11))
@@ -115,13 +120,21 @@ class PageWidget(QWidget):
         self.backgroundColor = '#FFFFFF'
         box = QCheckBox(self.pages)
         box.setGeometry(0, 0, 0, 0)
+        combox = QComboBox()
+        combox.addItems(['1', '2', '3'])
         layout = QHBoxLayout(self)
         layout.addWidget(box)
+        layout.addWidget(combox)
         pal = QPalette()
         pal.setColor(QPalette.Background, QColor(self.backgroundColor))
         self.setPalette(pal)
         self.setAutoFillBackground(True)
+        self.setStyleSheet(self.StyleSheet)
         # self.show()
+
+    def svnLayout(self):
+        layout = QHBoxLayout()
+
 
     def setPages(self, pages):
         self.pages = pages
@@ -160,8 +173,8 @@ class OptionWnd(QDialog):
         navigationWidget.setRowHeight(50)
         navigationWidget.setItems([u'更新安装包', u'更新脚本', u'执行模块', u'邮件通知', u'执行计划'])
 
-        self.page1 = PageWidget('svn更新设置')
-        self.page2 = PageWidget('程序更新设置')
+        self.page1 = SvnPage('svn更新设置')
+        self.page2 = SvnPage('程序更新设置')
 
         self.tipsLabel = QLabel(u"请选择：")
 
