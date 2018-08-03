@@ -4,6 +4,8 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
+from style import Style
+from pages import *
 
 
 class NavigationWidget(QWidget):
@@ -66,14 +68,14 @@ class NavigationWidget(QWidget):
 
         # 绘所有选项, 根据不同状态，设置不同画笔
         for i in range(len(self.listItems)):
-            image = QImage(r'../res/backup_option/Email.png')
+            image = QImage(r'..\res\backup_option\Email.png')
             itemPath = QPainterPath()
             itemPath.addRect(QRectF(0, i * self.rowHeight+1, self.width()-1, self.rowHeight-1))
             if i == self.currentIndex:
                 painter.setPen(QPen(QColor('#48A6F5'), 4))  # 选中就重新设置画笔，线条加粗
                 painter.fillPath(itemPath, QColor(self.selectedColor))
                 painter.drawLine(QLine(self.width(), i * self.rowHeight, self.width(), (i + 1) * self.rowHeight))
-                image = QImage(r'../res/backup_option/Email_active.png')
+                image = QImage(r'..\res\backup_option\Email_active.png')
             elif i == self.cursorIndex:
                 painter.setPen(QColor('#666666'))
                 painter.fillPath(itemPath, QColor(self.selectedColor))
@@ -104,16 +106,12 @@ class NavigationWidget(QWidget):
         self.update()
 
 
-class SvnPage(QWidget):
-    StyleSheet = """
-    QCheckBox { color: green;}
-    QComboBox { color: darkblue; }
-    """
+class SvnPageTest(QWidget):
     def __init__(self, text, parent=None):
-        super(SvnPage, self).__init__(parent)
+        super(SvnPageTest, self).__init__(parent)
+        self.style = Style.COMMON_STYLE
         self.backgroundColor = ''
         self.pages = text
-        self.setFont(QFont("Timers", 11))
         self.initUI()
 
     def initUI(self):
@@ -129,7 +127,11 @@ class SvnPage(QWidget):
         pal.setColor(QPalette.Background, QColor(self.backgroundColor))
         self.setPalette(pal)
         self.setAutoFillBackground(True)
-        self.setStyleSheet(self.StyleSheet)
+
+        self.setStyleSheet(self.style)
+        ft = QFont()
+        ft.setPointSize(18)
+        ft.setFamily("宋体")
         # self.show()
 
     def svnLayout(self):
@@ -173,8 +175,8 @@ class OptionWnd(QDialog):
         navigationWidget.setRowHeight(50)
         navigationWidget.setItems([u'更新安装包', u'更新脚本', u'执行模块', u'邮件通知', u'执行计划'])
 
-        self.page1 = SvnPage('svn更新设置')
-        self.page2 = SvnPage('程序更新设置')
+        self.page1 = SvnPage()
+        self.page2 = SvnPageTest('程序更新设置')
 
         self.tipsLabel = QLabel(u"请选择：")
 
@@ -248,6 +250,10 @@ class AddOptions(QWidget):
 
 def main():
     app = QApplication(sys.argv)
+    ft = QFont()
+    ft.setPointSize(11)
+    ft.setFamily("宋体")
+    app.setFont(ft)
     mainWnd = OptionWnd()
     mainWnd.show()
     # wnd = AddOptions()
