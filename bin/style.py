@@ -11,4 +11,8 @@ class Style:
             QLineEdit {height: 30px;}
             QLineEdit {selection-color: white;}
             QLineEdit {margin: 2px;}
+            
+            QLabel {height: 30px;}
+            
+            QCombobox {height: 30px;}
         """

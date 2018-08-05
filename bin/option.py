@@ -5,7 +5,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from style import Style
-from pages import *
+from bin.pages import SvnPage, PagkagePage
 
 
 class NavigationWidget(QWidget):
@@ -68,14 +68,14 @@ class NavigationWidget(QWidget):
 
         # 绘所有选项, 根据不同状态，设置不同画笔
         for i in range(len(self.listItems)):
-            image = QImage(r'..\res\backup_option\Email.png')
+            image = QImage('../res/backup_option/Email.png')
             itemPath = QPainterPath()
             itemPath.addRect(QRectF(0, i * self.rowHeight+1, self.width()-1, self.rowHeight-1))
             if i == self.currentIndex:
                 painter.setPen(QPen(QColor('#48A6F5'), 4))  # 选中就重新设置画笔，线条加粗
                 painter.fillPath(itemPath, QColor(self.selectedColor))
                 painter.drawLine(QLine(self.width(), i * self.rowHeight, self.width(), (i + 1) * self.rowHeight))
-                image = QImage(r'..\res\backup_option\Email_active.png')
+                image = QImage('../res/backup_option/Email_active.png')
             elif i == self.cursorIndex:
                 painter.setPen(QColor('#666666'))
                 painter.fillPath(itemPath, QColor(self.selectedColor))
@@ -175,8 +175,8 @@ class OptionWnd(QDialog):
         navigationWidget.setRowHeight(50)
         navigationWidget.setItems([u'更新安装包', u'更新脚本', u'执行模块', u'邮件通知', u'执行计划'])
 
-        self.page1 = SvnPage()
-        self.page2 = SvnPageTest('程序更新设置')
+        self.page1 = SvnPage.SvnPage()
+        self.page2 = PagkagePage.PackagePage()
 
         self.tipsLabel = QLabel(u"请选择：")
 
@@ -197,7 +197,7 @@ class OptionWnd(QDialog):
 
     def slotCurrentItemChanged(self, index, content):
         self.tipsLabel.setText(u"Current index and content：{} ---- {}".format(index, content))
-        if index == 1:
+        if index == 0:
             self.page1.setHidden(False)
             self.page2.setHidden(True)
         else:
