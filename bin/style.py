@@ -12,7 +12,9 @@ class Style:
             QLineEdit {selection-color: white;}
             QLineEdit {margin: 2px;}
             
-            QLabel {height: 30px;}
+            QLabel {height: 40px;}
             
-            QCombobox {height: 30px;}
+            QCombobox {height: 30px; width:50px;}
+            
+            QPushButton {height: 30px;}
         """

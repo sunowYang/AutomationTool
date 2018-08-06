@@ -22,7 +22,7 @@ class PackagePage(QWidget):
         # 设置各个控件的样式
         self.setStyleSheet(Style.COMMON_STYLE)
         # 设置layout
-        self.svnLayout()
+        self.PackageLayout()
         # 还需读取配置文件，设置各参数状态
 
     def setBackgroundColor(self, color):
@@ -31,7 +31,7 @@ class PackagePage(QWidget):
         self.setPalette(pal)
         self.setAutoFillBackground(True)
 
-    def svnLayout(self):
+    def PackageLayout(self):
         main_layout = QVBoxLayout()
         self.setLayout(main_layout)
 
@@ -82,6 +82,8 @@ class PackageParameter(QWidget):
 
         language_label = QLabel("    安装语言")
         self.language_combobox = QComboBox()
+        self.language_combobox.setFixedSize(120, 30)
+        # self.language_combobox.set
         self.language_lineedit = QLineEdit()
         # self.language_lineedit.setMaxLength(5)
         language_button = QPushButton('添加语言')
