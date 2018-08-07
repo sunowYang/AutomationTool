@@ -8,13 +8,54 @@ class Style:
             QCheckBox::indicator:unchecked {image:url(../res/check_unsel.png);}
             QCheckBox::indicator:checked {image:url(../res/check_sel.png);}
             
-            QLineEdit {height: 30px;}
-            QLineEdit {selection-color: white;}
-            QLineEdit {margin: 2px;}
+            
+            QLineEdit {height: 30px;
+                       border:1px solid #D7D7D7;
+                       selection-color: white;
+                       margin: 2px;}
             
             QLabel {height: 40px;}
             
-            QCombobox {height: 30px; width:50px;}
+            QComboBox {height:30px;
+                       width:120px;
+                       color:black;
+                       selection-color: black;
+                       selection-background-color: #FFFFFF;
+                       border:1px solid #D7D7D7;
+                       background-color:#FFFFFF;
+            }
             
-            QPushButton {height: 30px;}
+            QComboBox::down-arrow{
+                       image:url(../res/task_expand.png);
+                       border-left-width: 1px;
+                       border-left-color: darkgray;
+            }
+            QComboBox::drop-down {
+                        subcontrol-origin: padding;
+                        subcontrol-position: top right;
+                        width: 20px;
+            }
+            QComboBox QAbstractItemView{
+                       height:30px;
+                       width:100px;
+                       color:black;
+                       background-color:#FFFFFF;
+                       selection-color: black;
+                       selection-background-color: #ECF6FE;
+            }
+                       
+            QComboBox QAbstractItemView::item{
+                       height: 30px;
+            }
+            QListView::item {
+                       height: 30px;
+                       background: white;
+            }
+                
+            QPushButton {height: 30px;
+                         background-color:#FFFFFF;
+                         border:1px solid #A5A5A5;
+                         padding-left:25px;
+                         padding-right:25px;
+            }
         """

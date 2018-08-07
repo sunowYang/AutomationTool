@@ -74,6 +74,7 @@ class PackageParameter(QWidget):
         address_label = QLabel("    安装包地址")
         self.address_lineedit = QLineEdit()
         address_button = QPushButton('浏览')
+        address_button.setStyleSheet('QPushButton{background-color:#5BAFF6;border:0px;color:white}')
         address_button.clicked.connect(self.browse)
         package_address_layout = QHBoxLayout()
         package_address_layout.addWidget(address_label, 1)
@@ -82,11 +83,10 @@ class PackageParameter(QWidget):
 
         language_label = QLabel("    安装语言")
         self.language_combobox = QComboBox()
-        self.language_combobox.setFixedSize(120, 30)
-        # self.language_combobox.set
+        self.language_combobox.setEditable(True)
         self.language_lineedit = QLineEdit()
         # self.language_lineedit.setMaxLength(5)
-        language_button = QPushButton('添加语言')
+        language_button = QPushButton('添加')
         language_button.clicked.connect(self.add)
         language_layout = QHBoxLayout()
         language_layout.addWidget(language_label)
