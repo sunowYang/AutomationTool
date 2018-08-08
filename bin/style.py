@@ -25,33 +25,24 @@ class Style:
                        background-color:#FFFFFF;
             }
             
-            QComboBox::down-arrow{
-                       image:url(../res/task_expand.png);
-                       border-left-width: 1px;
-                       border-left-color: darkgray;
-            }
             QComboBox::drop-down {
+                        image:url(../res/task_expand.png);
                         subcontrol-origin: padding;
                         subcontrol-position: top right;
                         width: 20px;
             }
             QComboBox QAbstractItemView{
-                       height:30px;
-                       width:100px;
                        color:black;
                        background-color:#FFFFFF;
                        selection-color: black;
-                       selection-background-color: #ECF6FE;
+                       selection-background-color: green;
+                       border: 1px solid #666666;
             }
                        
             QComboBox QAbstractItemView::item{
                        height: 30px;
             }
-            QListView::item {
-                       height: 30px;
-                       background: white;
-            }
-                
+                            
             QPushButton {height: 30px;
                          background-color:#FFFFFF;
                          border:1px solid #A5A5A5;

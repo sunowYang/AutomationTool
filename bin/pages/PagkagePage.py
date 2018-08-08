@@ -84,6 +84,7 @@ class PackageParameter(QWidget):
         language_label = QLabel("    安装语言")
         self.language_combobox = QComboBox()
         self.language_combobox.setEditable(True)
+        self.language_combobox.setItemDelegate(QStyledItemDelegate())   # 下拉框不能被直接修改，需要设置
         self.language_lineedit = QLineEdit()
         # self.language_lineedit.setMaxLength(5)
         language_button = QPushButton('添加')
@@ -109,6 +110,8 @@ class PackageParameter(QWidget):
         language = self.language_lineedit.text()
         self.language_combobox.addItem(language)
         self.language_combobox.setCurrentIndex(self.language_combobox.count() - 1)
+
+
 
 
 
