@@ -5,7 +5,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from style import Style
-from bin.pages import SvnPage, PagkagePage
+from bin.pages import SvnPage, PagkagePage, ExecutePage
 
 
 class NavigationWidget(QWidget):
@@ -106,61 +106,6 @@ class NavigationWidget(QWidget):
         self.update()
 
 
-class SvnPageTest(QWidget):
-    def __init__(self, text, parent=None):
-        super(SvnPageTest, self).__init__(parent)
-        self.style = Style.COMMON_STYLE
-        self.backgroundColor = ''
-        self.pages = text
-        self.initUI()
-
-    def initUI(self):
-        self.backgroundColor = '#FFFFFF'
-        box = QCheckBox(self.pages)
-        box.setGeometry(0, 0, 0, 0)
-        combox = QComboBox()
-        combox.addItems(['1', '2', '3'])
-        layout = QHBoxLayout(self)
-        layout.addWidget(box)
-        layout.addWidget(combox)
-        pal = QPalette()
-        pal.setColor(QPalette.Background, QColor(self.backgroundColor))
-        self.setPalette(pal)
-        self.setAutoFillBackground(True)
-
-        self.setStyleSheet(self.style)
-        ft = QFont()
-        ft.setPointSize(18)
-        ft.setFamily("宋体")
-        # self.show()
-
-    def svnLayout(self):
-        layout = QHBoxLayout()
-
-
-    def setPages(self, pages):
-        self.pages = pages
-
-    def addPage(self, page):
-        self.pages.append(page)
-
-    def setBackgroundColor(self, color):
-        self.backgroundColor = color
-
-    def paintEvent(self, e):
-        painter = QPainter(self)
-        painter.setRenderHint(QPainter.Antialiasing, True)
-
-        # 设置画笔
-        painter.setFont(QFont("Timers", 11))  # 字体设置
-        painter.setPen(QPen(QColor('#666666')))
-        painter.setBrush(QColor(self.backgroundColor))
-
-        # painter.drawRect(self.rect())
-        painter.drawLine(0, 0, self.width(), 0)
-        painter.drawText(QRect(0, 100, self.width(), 120), Qt.AlignVCenter | Qt.AlignLeft, self.pages)
-
-
 class OptionWnd(QDialog):
     def __init__(self):
         super(OptionWnd, self).__init__()
@@ -173,10 +118,11 @@ class OptionWnd(QDialog):
         mainWidget = QWidget()
         navigationWidget = NavigationWidget()
         navigationWidget.setRowHeight(50)
-        navigationWidget.setItems([u'更新安装包', u'更新脚本', u'执行模块', u'邮件通知', u'执行计划'])
+        navigationWidget.setItems([u'更新脚本', u'更新安装包', u'执行模块', u'邮件通知', u'执行计划'])
 
         self.page1 = SvnPage.SvnPage()
         self.page2 = PagkagePage.PackagePage()
+        self.page3 = ExecutePage.ExecutePage()
 
         self.tipsLabel = QLabel(u"请选择：")
 
@@ -189,6 +135,7 @@ class OptionWnd(QDialog):
         # mainLayout.addWidget(self.tipsLabel, 3, Qt.AlignHCenter)
         mainLayout.addWidget(self.page1, 3)
         mainLayout.addWidget(self.page2, 3)
+        mainLayout.addWidget(self.page3, 3)
 
         navigationWidget.currentItemChanged[int, str].connect(self.slotCurrentItemChanged)
         navigationWidget.setCurrentIndex(0)
@@ -200,9 +147,15 @@ class OptionWnd(QDialog):
         if index == 0:
             self.page1.setHidden(False)
             self.page2.setHidden(True)
-        else:
+            self.page3.setHidden(True)
+        elif index == 1:
             self.page1.setHidden(True)
             self.page2.setHidden(False)
+            self.page3.setHidden(True)
+        else:
+            self.page1.setHidden(True)
+            self.page2.setHidden(True)
+            self.page3.setHidden(False)
 
 
 class AddOptions(QWidget):

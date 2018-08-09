@@ -48,5 +48,16 @@ class Style:
                          border:1px solid #A5A5A5;
                          padding-left:25px;
                          padding-right:25px;
+            }            
+            QSpinBox {
+                        height: 30px;
+                        width: 100px;
+                        border: 1px solid #D7D7D7;
+            }             
+            QSpinBox::down-button{
+                        image:url(../res/icon_arrow_down.png);
+            }
+            QSpinBox::up-button{
+                        image:url(../res/icon_arrow_up.png);
             }
         """

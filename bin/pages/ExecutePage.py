@@ -35,15 +35,14 @@ class ExecutePage(QWidget):
         main_layout = QVBoxLayout()
         self.setLayout(main_layout)
 
-        self.radio_box = QRadioButton()
-        self.update_checkbox = QCheckBox("更新安装包")
-        self.update_checkbox.stateChanged.connect(self.checkboxSignal)
-        main_layout.addWidget(self.update_checkbox)
+        self.execute_checkbox = QCheckBox("自定义设置")
+        self.execute_checkbox.stateChanged.connect(self.checkboxSignal)
+        main_layout.addWidget(self.execute_checkbox)
         main_layout.addWidget(self.parameter)
         main_layout.addStretch()
 
     def checkboxSignal(self):
-        if self.update_checkbox.isChecked():
+        if self.execute_checkbox.isChecked():
             self.parameter.setHidden(False)
         else:
             self.parameter.setHidden(True)
@@ -71,4 +70,16 @@ class ExecuteParameter(QWidget):
     def parameterLayout(self):
         main_layout = QVBoxLayout()
         self.setLayout(main_layout)
+
+        execute_time_layout = QHBoxLayout()
+        execute_time_label = QLabel('执行次数')
+        execute_time_spinbox = QSpinBox()
+        execute_time_spinbox.setRange(1, 100)
+        execute_time_spinbox.setValue(1)
+        execute_time_layout.addWidget(execute_time_label)
+        execute_time_layout.addWidget(execute_time_spinbox)
+        execute_time_layout.addStretch()
+
+
+        main_layout.addLayout(execute_time_layout)
 
