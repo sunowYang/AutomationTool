@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f43b771-8ef9-4c0b-9c88-76217dc01a74" name="Default" comment="" />
+    <list default="true" readonly="true" id="3f43b771-8ef9-4c0b-9c88-76217dc01a74" name="Default" comment="">
+      <change beforePath="" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/test.html" />
+      <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" />
+      <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,34 +15,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainWindow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+      <file leaf-file-name="MainWindow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="140">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+                <element signature="e#1344#1430#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="option.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/option.py">
+      <file leaf-file-name="Right.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ui/Right.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="156" column="37" lean-forward="false" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
+            <state relative-caret-position="80">
+              <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
               <folding>
-                <element signature="e#26#36#0" expanded="true" />
+                <element signature="e#27#37#0" expanded="true" />
+                <element signature="e#1120#1255#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/style.py">
+        <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="260">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding>
+                <element signature="e#2469#3059#0" expanded="false" />
+                <element signature="e#3098#3339#0" expanded="false" />
+                <element signature="e#3363#3719#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +58,8 @@
       <file leaf-file-name="PagkagePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+            <state relative-caret-position="260">
+              <caret line="75" column="99" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="99" />
               <folding>
                 <element signature="e#27#37#0" expanded="true" />
               </folding>
@@ -55,13 +67,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutePage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExecutePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/pages/ExecutePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+            <state relative-caret-position="2020">
+              <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
               <folding>
-                <element signature="e#27#37#0" expanded="true" />
+                <element signature="e#27#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +82,8 @@
       <file leaf-file-name="SvnPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="e#27#37#0" expanded="true" />
               </folding>
@@ -102,22 +114,35 @@
       <list>
         <option value="$PROJECT_DIR$/bin/BackupDialog.py" />
         <option value="$PROJECT_DIR$/bin/test.py" />
-        <option value="$PROJECT_DIR$/bin/MainWindow.py" />
         <option value="$PROJECT_DIR$/bin/layout.py" />
         <option value="$PROJECT_DIR$/bin/pages.py" />
         <option value="$PROJECT_DIR$/bin/pages/Pagkagepage.py" />
         <option value="$PROJECT_DIR$/bin/pages/SvnPage.py" />
-        <option value="$PROJECT_DIR$/bin/pages/PagkagePage.py" />
         <option value="$PROJECT_DIR$/bin/option.py" />
         <option value="$PROJECT_DIR$/bin/pages/ExecutePage.py" />
+        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/123" />
+        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini" />
+        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
+        <option value="$PROJECT_DIR$/bin/pages/PagkagePage.py" />
         <option value="$PROJECT_DIR$/bin/style.py" />
+        <option value="$PROJECT_DIR$/bin/MainWindow.py" />
+        <option value="$PROJECT_DIR$/bin/Left.py" />
+        <option value="$PROJECT_DIR$/bin/ui/right.py" />
+        <option value="$PROJECT_DIR$/bin/ui/Left.py" />
+        <option value="$PROJECT_DIR$/bin/ui/MainWindow.py" />
+        <option value="$PROJECT_DIR$/bin/ui/style.py" />
+        <option value="$PROJECT_DIR$/bin/ui/Right.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-34" />
+    <option name="y" value="191" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -135,7 +160,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,16 +181,18 @@
             <path>
               <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TB_SCRIPT" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/yuanbin/Documents/GitHub/AutomationTool/bin/option.py" />
   </component>
@@ -179,6 +205,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin\ui" />
+      <recent name="D:\_WorkFile\2018\TestPlatform\Program\WebTest\Resources" />
       <recent name="$PROJECT_DIR$/bin/pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -201,119 +229,138 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.option">
-    <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MainWindow (1)">
+    <configuration name="Left" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/MainWindow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/Left.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PagkagePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MainWindow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/pages/PagkagePage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/MainWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Right" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/svnlayout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/Right.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="option" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="option (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/option.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/option.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pages" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="style" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/pages.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/style.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MainWindow" />
-      <item index="1" class="java.lang.String" itemvalue="Python.option" />
-      <item index="2" class="java.lang.String" itemvalue="Python.layout" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pages" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PagkagePage" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MainWindow (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.option (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Left" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Right" />
+      <item index="4" class="java.lang.String" itemvalue="Python.style" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.option" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MainWindow" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PagkagePage" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pages" />
-        <item index="4" class="java.lang.String" itemvalue="Python.layout" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MainWindow (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.style" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Right" />
+        <item index="3" class="java.lang.String" itemvalue="Python.option (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Left" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yuanbin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+          <option name="myCopyRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+          <option name="myCopyRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -326,84 +373,41 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18767706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18754423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3838">
-          <caret line="202" column="13" lean-forward="true" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -424,7 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4240">
           <caret line="252" column="16" lean-forward="true" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="16" />
@@ -434,7 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/style.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
@@ -442,7 +446,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/pages.py" />
-    <entry file="file://$PROJECT_DIR$/bin/option.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -452,118 +456,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3760">
           <caret line="192" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/svnlayout.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3760">
           <caret line="192" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/svnlayout.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1940">
           <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3760">
           <caret line="192" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/svnlayout.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1940">
           <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3760">
           <caret line="192" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3572">
           <caret line="192" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -571,14 +575,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -586,21 +590,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
@@ -609,73 +613,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/test.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QWidget.py" />
-    <entry file="file://$PROJECT_DIR$/bin/BackupDialog.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="190" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/svnlayout.py">
+    <entry file="file://$PROJECT_DIR$/bin/pages.py" />
+    <entry file="file://$PROJECT_DIR$/bin/pages/ExecutePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="2020">
+          <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages.py" />
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/123" />
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="320">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="e#27#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="-60">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="156" column="37" lean-forward="false" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
+        <state relative-caret-position="440">
+          <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
           <folding>
             <element signature="e#26#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/style.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/Left.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="222">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#27#37#0" expanded="true" />
+            <element signature="e#905#1040#0" expanded="false" />
+            <element signature="e#1085#1199#0" expanded="false" />
+            <element signature="e#1420#1538#0" expanded="false" />
+            <element signature="e#1587#1720#0" expanded="false" />
+            <element signature="e#1955#2071#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/ExecutePage.py">
+    <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        <state relative-caret-position="260">
+          <caret line="75" column="99" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="99" />
           <folding>
             <element signature="e#27#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="e#2469#3059#0" expanded="false" />
+            <element signature="e#3098#3339#0" expanded="false" />
+            <element signature="e#3363#3719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/Right.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+          <folding>
+            <element signature="e#27#37#0" expanded="true" />
+            <element signature="e#1120#1255#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#1344#1430#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -3,9 +3,8 @@
 
 import sys
 from PyQt5.QtGui import *
-from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from bin.style import Style
+from bin.ui.style import Style
 
 
 class SvnPage(QWidget):

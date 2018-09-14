@@ -4,7 +4,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from LabelClick import LabelClick
+from bin.ui.LabelClick import LabelClick
 
 
 def read_version():

@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-#
 
 
-import sys
 from PyQt5.QtGui import *
-from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from bin.style import Style
+from bin.ui.style import Style
 
 
 class ExecutePage(QWidget):
@@ -80,6 +78,27 @@ class ExecuteParameter(QWidget):
         execute_time_layout.addWidget(execute_time_spinbox)
         execute_time_layout.addStretch()
 
+        priority_layout = QVBoxLayout()
+        priority_label = QLabel('优先级设置（只执行选中的优先级）')
+        priority_button_layout = QHBoxLayout()
+        priority_button_layout.addWidget(QLabel('  '))
+
+        self.setStyleSheet(Style.SELECT_BUTTON)
+        self.button0 = QPushButton('0')
+        self.button1 = QPushButton('1')
+        self.button2 = QPushButton('2')
+        self.button3 = QPushButton('3')
+        self.button0.clicked.connect(self.button0_click)
+        priority_button_layout.addWidget(self.button0)
+        priority_button_layout.addWidget(self.button1)
+        priority_button_layout.addWidget(self.button2)
+        priority_button_layout.addWidget(self.button3)
+        priority_button_layout.addStretch(1)
+        priority_layout.addWidget(priority_label)
+        priority_layout.addLayout(priority_button_layout)
 
         main_layout.addLayout(execute_time_layout)
+        main_layout.addLayout(priority_layout)
 
+    def button0_click(self):
+        self.button0

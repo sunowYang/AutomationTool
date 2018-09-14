@@ -1,6 +1,6 @@
 #! coding=utf8
 
-from bin.MainWindow import run
+from bin.ui.MainWindow import run
 
 if __name__ == '__main__':
     run()
