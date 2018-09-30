@@ -73,7 +73,7 @@ class PackageParameter(QWidget):
         address_label = QLabel("    安装包地址")
         self.address_lineedit = QLineEdit()
         address_button = QPushButton('浏览')
-        address_button.setStyleSheet('QPushButton{background-color:#5BAFF6;border:0px;color:white}')
+        address_button.setStyleSheet('QPushButton{background-color:#4BAEB3;border:0px;color:white}')
         address_button.clicked.connect(self.browse)
         package_address_layout = QHBoxLayout()
         package_address_layout.addWidget(address_label, 1)

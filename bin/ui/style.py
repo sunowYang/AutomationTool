@@ -5,10 +5,15 @@ class Style:
     COMMON_STYLE = """
             QCheckBox { spacing: 10px;}
             QCheckBox::indicator {width: 20px;height: 20px;}
-            QCheckBox::indicator:unchecked {image:url(../res/check_unsel.png);}
-            QCheckBox::indicator:checked {image:url(../res/check_sel.png);}
+            QCheckBox::indicator:unchecked {image:url(../../res/check_unsel.png);}
+            QCheckBox::indicator:checked {image:url(../../res/check_sel.png);}
             
             
+            QRadioButton { spacing: 10px;}
+            QRadioButton::indicator {width: 20px;height: 20px;}
+            QRadioButton::indicator:unchecked {image:url(../../res/radio_unchecked.png);}
+            QRadioButton::indicator:checked {image:url(../../res/radio_checked.png);}
+
             QLineEdit {height: 30px;
                        border:1px solid #D7D7D7;
                        selection-color: white;
@@ -26,7 +31,7 @@ class Style:
             }
             
             QComboBox::drop-down {
-                        image:url(../res/task_expand.png);
+                        image:url(../../res/task_expand.png);
                         subcontrol-origin: padding;
                         subcontrol-position: top right;
                         width: 20px;
@@ -49,21 +54,39 @@ class Style:
                          padding-left:25px;
                          padding-right:25px;
             }   
-            QPushButton:hover {background-color:#47A2ED; 
-                               color: black;
-                               border-style:outset}
+            QPushButton:hover {
+                               color: #4BAEB3;
+                               }
             QSpinBox {
                         height: 30px;
                         width: 100px;
                         border: 1px solid #D7D7D7;
             }             
             QSpinBox::down-button{
-                        image:url(../res/icon_arrow_down.png);
+                        image:url(../../res/icon_arrow_down.png);
             }
             QSpinBox::up-button{
-                        image:url(../res/icon_arrow_up.png);
+                        image:url(../../res/icon_arrow_up.png);
             }
-        """
+            
+            QSplitter::handle { background-color: #F1F1F1; 
+                                border: 1px solid #AFAFAF;
+            }
+            QScrollBar{
+                        height:11px;
+                        background:#CDCDCD;
+                        margin:0px,0px,0px,0px;
+                        padding-top:0px;
+                        padding-bottom:0px;
+            }
+            QScrollBar::handle{
+                                height:11px;
+                                background:#B3B3B3;
+            }
+            QScrollBar::handle:hover{
+                                background:#999999;
+            }
+    """
 
     # option使用button
     SELECT_BUTTON = """
@@ -138,10 +161,17 @@ class Style:
             }
             QTableWidget::item:selected {
                          background:#EDF7F8;
-                         color:red;
+                         color:black;
             }
             # QTableWidget QHeaderView::section{
             #              background-color:#FFFFFF;
             # }
+    """
+
+    ERROR_lABEL = """
+            QLabel {height: 25px;
+                    color: red;
+            }
+    
     """
 

@@ -4,8 +4,8 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from style import Style
-from bin.pages import SvnPage, PagkagePage, ExecutePage
+from bin.ui.pages import SvnPage, PackagePage, ExecutePage
+from bin.ui.style import Style
 
 
 class NavigationWidget(QWidget):
@@ -23,7 +23,6 @@ class NavigationWidget(QWidget):
         self.listItems = []
         self.cursorIndex = -1  # 当前光标所在位置的项索引
         self.rowWidth = 200
-
         self.setMouseTracking(True)
         # self.setMinimumWidth(180)
 
@@ -68,16 +67,16 @@ class NavigationWidget(QWidget):
 
         # 绘所有选项, 根据不同状态，设置不同画笔
         for i in range(len(self.listItems)):
-            image = QImage('../res/backup_option/Email.png')
+            image = QImage('../../res/backup_option/Email.png')
             itemPath = QPainterPath()
             itemPath.addRect(QRectF(0, i * self.rowHeight+1, self.width()-1, self.rowHeight-1))
             if i == self.currentIndex:
-                painter.setPen(QPen(QColor('#48A6F5'), 4))  # 选中就重新设置画笔，线条加粗
+                painter.setPen(QPen(QColor('#4BAEB3'), 4))  # 选中就重新设置画笔，线条加粗
                 painter.fillPath(itemPath, QColor(self.selectedColor))
                 painter.drawLine(QLine(self.width(), i * self.rowHeight, self.width(), (i + 1) * self.rowHeight))
-                image = QImage('../res/backup_option/Email_active.png')
+                image = QImage('../../res/backup_option/Email_active.png')
             elif i == self.cursorIndex:
-                painter.setPen(QColor('#666666'))
+                painter.setPen(QColor('#4BAEB3'))
                 painter.fillPath(itemPath, QColor(self.selectedColor))
             else:
                 painter.setPen(QColor('#666666'))
@@ -109,6 +108,10 @@ class NavigationWidget(QWidget):
 class OptionWnd(QDialog):
     def __init__(self):
         super(OptionWnd, self).__init__()
+        self.svn = SvnPage.SvnPage()
+        self.svn_parameter = SvnPage.SvnParameter()
+        self.package = PackagePage.PackagePage()
+        self.execute = ExecutePage.ExecutePage()
         self.initUI()
 
     def initUI(self):
@@ -121,26 +124,32 @@ class OptionWnd(QDialog):
         navigationWidget.setItems([u'更新脚本', u'更新安装包', u'执行模块', u'邮件通知', u'执行计划'])
 
         self.page1 = SvnPage.SvnPage()
-        self.page2 = PagkagePage.PackagePage()
+        self.page2 = PackagePage.PackagePage()
         self.page3 = ExecutePage.ExecutePage()
-
         self.tipsLabel = QLabel(u"请选择：")
-
         self.option = AddOptions(self)
 
-        mainLayout = QHBoxLayout(mainWidget)
+        mainLayout = QVBoxLayout(mainWidget)
         mainLayout.setContentsMargins(0, 0, 0, 0)
         mainLayout.setSpacing(0)
-        mainLayout.addWidget(navigationWidget, 1)
-        # mainLayout.addWidget(self.tipsLabel, 3, Qt.AlignHCenter)
-        mainLayout.addWidget(self.page1, 3)
-        mainLayout.addWidget(self.page2, 3)
-        mainLayout.addWidget(self.page3, 3)
 
+        # 上面一部分layout，主要是左侧栏和右侧栏
+        up_layout = QHBoxLayout()
+        up_layout.addWidget(navigationWidget, 1)
+        up_layout.addWidget(self.page1, 3)
+        up_layout.addWidget(self.page2, 3)
+        up_layout.addWidget(self.page3, 3)
+        # 下面栏是保存取消按钮
+        self.button = Save(self)
+        self.button.button_save.clicked.connect(self.save)
+        self.button.button_cancel.clicked.connect(self.close)
+        # 整体布局
         navigationWidget.currentItemChanged[int, str].connect(self.slotCurrentItemChanged)
-        navigationWidget.setCurrentIndex(0)
+        navigationWidget.setCurrentIndex(2)
+        mainLayout.addLayout(up_layout, 8)
+        mainLayout.addWidget(self.button, 1)
+
         self.setLayout(mainLayout)
-        # self.show()
 
     def slotCurrentItemChanged(self, index, content):
         self.tipsLabel.setText(u"Current index and content：{} ---- {}".format(index, content))
@@ -156,6 +165,27 @@ class OptionWnd(QDialog):
             self.page1.setHidden(True)
             self.page2.setHidden(True)
             self.page3.setHidden(False)
+
+    def save(self):
+        data = {}
+        # 读取SVN页面参数
+        if self.svn.update_checkbox.isChecked():
+            data['svn'] = '1'
+            data['address'] = self.svn_parameter.svn_address_lineedit.text()
+            print len(data['address'])
+            if data['address'] == '':
+                self.button.error_message = 'SVN 地址不能为空'
+            data['localaddress'] = self.svn_parameter.local_address_lineedit.text()
+            data['username'] = self.svn_parameter.user_edit.text()
+            data['password'] = self.svn_parameter.psd_edit.text()
+            print data['address'], data['localaddress']
+            print 1111
+        # 读取安装包页面参数
+        if self.package.update_checkbox.isChecked():
+            data['package'] = '1'
+            data['address'] = self.package.address_lineedit.text()
+            data['language'] = self.package.language_combobox.currentText()
+
 
 
 class AddOptions(QWidget):
@@ -201,6 +231,44 @@ class AddOptions(QWidget):
         return package_layout
 
 
+class Save(QWidget):
+    def __init__(self, parent=None):
+        super(Save, self).__init__(parent)
+        # 设置参数Widget，方便在uncheck时隐藏，layout无隐藏方法
+        self.initUI()
+
+    def initUI(self):
+        # 设置背景为白色
+        self.setBackgroundColor(QColor("#FFFFFF"))
+        # 设置各个控件的样式
+        self.setStyleSheet(Style.COMMON_STYLE)
+        # 设置layout
+        self.mainLayout()
+        # 还需读取配置文件，设置各参数状态
+
+    def setBackgroundColor(self, color):
+        pal = QPalette()
+        pal.setColor(QPalette.Background, color)
+        self.setPalette(pal)
+        self.setAutoFillBackground(True)
+
+    def mainLayout(self):
+        main_layout = QHBoxLayout()
+        self.setLayout(main_layout)
+
+        # 添加save cancel按钮框
+        self.button_save = QPushButton('保存')
+        self.button_save.setStyleSheet(Style.PROCEED_BUTTON)
+        self.button_cancel = QPushButton('取消')
+        # 添加错误说明
+        self.error_message = QLabel()
+        self.error_message.setStyleSheet(Style.ERROR_lABEL)
+        main_layout.addStretch(1)
+        main_layout.addWidget(self.error_message)
+        main_layout.addWidget(self.button_save)
+        main_layout.addWidget(self.button_cancel)
+
+
 def main():
     app = QApplication(sys.argv)
     ft = QFont()
@@ -212,6 +280,7 @@ def main():
     # wnd = AddOptions()
 
     sys.exit(app.exec_())
+
 
 if __name__ == '__main__':
     main()

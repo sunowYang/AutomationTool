@@ -15,27 +15,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainWindow.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="207">
+              <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
-                <element signature="e#1344#1430#0" expanded="false" />
+                <element signature="e#415#1225#0" expanded="false" />
+                <element signature="e#1276#1411#0" expanded="false" />
+                <element signature="e#1576#2305#0" expanded="false" />
+                <element signature="e#2356#2491#0" expanded="false" />
+                <element signature="e#2630#2790#0" expanded="false" />
+                <element signature="e#3776#6357#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Right.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/ui/Right.py">
+      <file leaf-file-name="PackagePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ui/pages/PackagePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+            <state relative-caret-position="1620">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ui/pages/ExecutePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <element signature="e#27#37#0" expanded="true" />
-                <element signature="e#1120#1255#0" expanded="false" />
+                <element signature="e#27#52#0" expanded="true" />
+                <element signature="e#148#7289#0" expanded="false" />
+                <element signature="e#789#924#0" expanded="false" />
+                <element signature="e#1363#1852#0" expanded="false" />
+                <element signature="e#1893#2870#0" expanded="false" />
+                <element signature="e#4459#7289#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,49 +63,61 @@
       <file leaf-file-name="style.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="145" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="-120">
+              <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
               <folding>
-                <element signature="e#2469#3059#0" expanded="false" />
-                <element signature="e#3098#3339#0" expanded="false" />
-                <element signature="e#3363#3719#0" expanded="false" />
+                <element signature="e#4260#4616#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagkagePage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
+      <file leaf-file-name="option.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="75" column="99" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="99" />
+            <state relative-caret-position="60">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding>
-                <element signature="e#27#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutePage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/pages/ExecutePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2020">
-              <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
-              <folding>
-                <element signature="e#27#52#0" expanded="true" />
+                <element signature="e#26#36#0" expanded="true" />
+                <element signature="e#249#3642#0" expanded="false" />
+                <element signature="e#339#407#0" expanded="false" />
+                <element signature="e#793#842#0" expanded="false" />
+                <element signature="e#883#927#0" expanded="false" />
+                <element signature="e#978#1028#0" expanded="false" />
+                <element signature="e#1075#1123#0" expanded="false" />
+                <element signature="e#1169#1214#0" expanded="false" />
+                <element signature="e#1260#1368#0" expanded="false" />
+                <element signature="e#1409#3050#0" expanded="false" />
+                <element signature="e#3095#3312#0" expanded="false" />
+                <element signature="e#3358#3555#0" expanded="false" />
+                <element signature="e#3599#3642#0" expanded="false" />
+                <element signature="e#6777#8356#0" expanded="false" />
+                <element signature="e#8384#9522#0" expanded="false" />
+                <element signature="e#9541#9750#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SvnPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
+        <entry file="file://$PROJECT_DIR$/bin/ui/pages/SvnPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="160">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="e#27#37#0" expanded="true" />
+                <element signature="e#160#2103#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QWidget.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QWidget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="1017" column="8" lean-forward="false" selection-start-line="1017" selection-start-column="8" selection-end-line="1017" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,13 +160,24 @@
         <option value="$PROJECT_DIR$/bin/Left.py" />
         <option value="$PROJECT_DIR$/bin/ui/right.py" />
         <option value="$PROJECT_DIR$/bin/ui/Left.py" />
+        <option value="$PROJECT_DIR$/bin/ui/pages/PagkagePage.py" />
+        <option value="$PROJECT_DIR$/bin/ui/down.py" />
+        <option value="$PROJECT_DIR$/bin/parse.py" />
+        <option value="$PROJECT_DIR$/bin/save.py" />
+        <option value="$PROJECT_DIR$/bin/ui/pages/ExecutePage.py" />
+        <option value="$PROJECT_DIR$/bin/ui/pages/PackagePage.py" />
+        <option value="$PROJECT_DIR$/bin/ui/save.py" />
         <option value="$PROJECT_DIR$/bin/ui/MainWindow.py" />
-        <option value="$PROJECT_DIR$/bin/ui/style.py" />
         <option value="$PROJECT_DIR$/bin/ui/Right.py" />
+        <option value="$PROJECT_DIR$/bin/ui/style.py" />
+        <option value="$PROJECT_DIR$/bin/ui/svnlayout.py" />
+        <option value="$PROJECT_DIR$/bin/ui/main.py" />
+        <option value="$PROJECT_DIR$/bin/ui/pages/SvnPage.py" />
+        <option value="$PROJECT_DIR$/bin/ui/option.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-34" />
     <option name="y" value="191" />
     <option name="width" value="1456" />
@@ -160,6 +202,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,19 +219,12 @@
               <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,10 +247,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\res" />
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\res\backup_option" />
       <recent name="$PROJECT_DIR$/bin/pages" />
       <recent name="$PROJECT_DIR$/bin" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin\res" />
-      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,25 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainWindow (1)">
-    <configuration name="Left" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/Left.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="MainWindow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,13 +278,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/MainWindow.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin\ui\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Right" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SvnPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutomationTool" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/pages/SvnPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -278,7 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/Right.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +338,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="style" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="save" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -314,7 +350,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/style.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/save.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,17 +359,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.MainWindow (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.option (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Left" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Right" />
-      <item index="4" class="java.lang.String" itemvalue="Python.style" />
+      <item index="2" class="java.lang.String" itemvalue="Python.save" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SvnPage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MainWindow (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.style" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Right" />
-        <item index="3" class="java.lang.String" itemvalue="Python.option (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Left" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MainWindow (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.option (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SvnPage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.save" />
       </list>
     </recent_temporary>
   </component>
@@ -373,25 +409,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18754423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -403,66 +439,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4240">
-          <caret line="252" column="16" lean-forward="true" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="16" />
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3760">
@@ -477,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -499,7 +480,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -521,7 +502,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -536,7 +517,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -551,7 +532,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -559,7 +540,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
@@ -567,7 +548,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -582,7 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -597,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -612,25 +593,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QWidget.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/pages.py" />
-    <entry file="file://$PROJECT_DIR$/bin/pages/ExecutePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2020">
-          <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
-          <folding>
-            <element signature="e#27#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/123" />
     <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,88 +609,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/SvnPage.py">
+    <entry file="file://$PROJECT_DIR$/res/check_sel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/save.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/pages/ExecutePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <element signature="e#27#37#0" expanded="true" />
+            <element signature="e#27#52#0" expanded="true" />
+            <element signature="e#148#7289#0" expanded="false" />
+            <element signature="e#789#924#0" expanded="false" />
+            <element signature="e#1363#1852#0" expanded="false" />
+            <element signature="e#1893#2870#0" expanded="false" />
+            <element signature="e#4459#7289#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/pages/PackagePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="1620">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QLayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QBoxLayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/Left.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-            <element signature="e#905#1040#0" expanded="false" />
-            <element signature="e#1085#1199#0" expanded="false" />
-            <element signature="e#1420#1538#0" expanded="false" />
-            <element signature="e#1587#1720#0" expanded="false" />
-            <element signature="e#1955#2071#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pages/PagkagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="75" column="99" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="99" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="-120">
+          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
           <folding>
-            <element signature="e#2469#3059#0" expanded="false" />
-            <element signature="e#3098#3339#0" expanded="false" />
-            <element signature="e#3363#3719#0" expanded="false" />
+            <element signature="e#4260#4616#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/Right.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/down.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+          <caret line="105" column="7" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3598">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
           <folding>
-            <element signature="e#27#37#0" expanded="true" />
-            <element signature="e#1120#1255#0" expanded="false" />
+            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#415#1225#0" expanded="false" />
+            <element signature="e#1276#1411#0" expanded="false" />
+            <element signature="e#1576#2305#0" expanded="false" />
+            <element signature="e#2356#2491#0" expanded="false" />
+            <element signature="e#2630#2790#0" expanded="false" />
+            <element signature="e#3776#6357#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/MainWindow.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="148">
+          <caret line="1017" column="8" lean-forward="false" selection-start-line="1017" selection-start-column="8" selection-end-line="1017" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/pages/SvnPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
-            <element signature="e#1344#1430#0" expanded="false" />
+            <element signature="e#27#37#0" expanded="true" />
+            <element signature="e#160#2103#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#36#0" expanded="true" />
+            <element signature="e#249#3642#0" expanded="false" />
+            <element signature="e#339#407#0" expanded="false" />
+            <element signature="e#793#842#0" expanded="false" />
+            <element signature="e#883#927#0" expanded="false" />
+            <element signature="e#978#1028#0" expanded="false" />
+            <element signature="e#1075#1123#0" expanded="false" />
+            <element signature="e#1169#1214#0" expanded="false" />
+            <element signature="e#1260#1368#0" expanded="false" />
+            <element signature="e#1409#3050#0" expanded="false" />
+            <element signature="e#3095#3312#0" expanded="false" />
+            <element signature="e#3358#3555#0" expanded="false" />
+            <element signature="e#3599#3642#0" expanded="false" />
+            <element signature="e#6777#8356#0" expanded="false" />
+            <element signature="e#8384#9522#0" expanded="false" />
+            <element signature="e#9541#9750#0" expanded="false" />
           </folding>
         </state>
       </provider>
