@@ -5,14 +5,14 @@ class Style:
     COMMON_STYLE = """
             QCheckBox { spacing: 10px;}
             QCheckBox::indicator {width: 20px;height: 20px;}
-            QCheckBox::indicator:unchecked {image:url(../../res/check_unsel.png);}
-            QCheckBox::indicator:checked {image:url(../../res/check_sel.png);}
+            QCheckBox::indicator:unchecked {image:url(res/check_unsel.png);}
+            QCheckBox::indicator:checked {image:url(res/check_sel.png);}
             
             
             QRadioButton { spacing: 10px;}
             QRadioButton::indicator {width: 20px;height: 20px;}
-            QRadioButton::indicator:unchecked {image:url(../../res/radio_unchecked.png);}
-            QRadioButton::indicator:checked {image:url(../../res/radio_checked.png);}
+            QRadioButton::indicator:unchecked {image:url(res/radio_unchecked.png);}
+            QRadioButton::indicator:checked {image:url(res/radio_checked.png);}
 
             QLineEdit {height: 30px;
                        border:1px solid #D7D7D7;
@@ -31,7 +31,7 @@ class Style:
             }
             
             QComboBox::drop-down {
-                        image:url(../../res/task_expand.png);
+                        image:url(res/task_expand.png);
                         subcontrol-origin: padding;
                         subcontrol-position: top right;
                         width: 20px;
@@ -63,10 +63,10 @@ class Style:
                         border: 1px solid #D7D7D7;
             }             
             QSpinBox::down-button{
-                        image:url(../../res/icon_arrow_down.png);
+                        image:url(res/icon_arrow_down.png);
             }
             QSpinBox::up-button{
-                        image:url(../../res/icon_arrow_up.png);
+                        image:url(res/icon_arrow_up.png);
             }
             
             QSplitter::handle { background-color: #F1F1F1; 
@@ -86,6 +86,45 @@ class Style:
             QScrollBar::handle:hover{
                                 background:#999999;
             }
+            
+            QTreeView{
+                      border: 0px;
+                      color: red;
+            }
+            
+            QTreeView::item{
+                            height: 36px;
+                            border: 1px solid #DDDDDD;
+                            border-style: solid none solid none;
+                            color: black;
+                            padding: 0px;
+                            
+            }
+            QTreeView::item:hover{
+                            background: #EDF7F8;
+                            border: 1px solid #BCE0E2;
+                            border-style: solid none solid none;
+            }
+            QTreeView::item:selected{
+                            background: #E2F2F3;
+                            border: 1px solid #4BAEB3;
+                            border-style: solid none solid none;
+                            
+            }
+            QTreeView::branch:selected{
+                                       outline: none;
+            }
+            QHeaderView{
+                        font-size: 14px;
+                        Font: Roman times;
+                        color: black;
+            }
+            QHeaderView::section:hover{
+                                       background-color:#FFFFFF;
+                                       border: none;
+                                       padding: 4px;
+            }
+            
     """
 
     # option使用button
@@ -107,19 +146,40 @@ class Style:
 
     # 左侧栏使用button
     TASKS_BUTTON = """
-            QPushButton {height: 45px;
-                         margin:0px;
-                         color:white;
-                         background-color:#4BAEB3;
+            QPushButton {
+                         Font-size: 14px; 
+                         height: 45px;
+                         margin: 0px;
+                         color: white;
+                         background-color: #4BAEB3;
                          border:1px solid #4BAEB3;
+                         text-align: left;
             }
+            
     """
+    LEFT_SIDE_TASK_BUTTON = """
+            QPushButton {
+                         Font-size: 14px; 
+                         height: 32px;
+                         color: #4BAEB3;
+                         background-color: #FFFFFF;
+                         border: 2px dashed #4BAEB3;
+                         margin: 10px 23px 10px 23px;
+            }
+            QPushButton:hover { 
+                               background-color: #F0F8F8;
+                               }
+    """
+
     LEFT_SIDE_BUTTON = """
-            QPushButton {height: 45px;
+            QPushButton {
+                         Font-size: 14px; 
+                         height: 45px;
                          margin:0px;
                          color:#333333;
                          background-color:#EBEBEB;
                          border:1px solid #EBEBEB;
+                         text-align: left;
             }
             QPushButton:hover { 
                                color: #4BAEB3;
