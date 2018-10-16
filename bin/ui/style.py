@@ -210,28 +210,47 @@ class Style:
                                color: #4BAEB3;
             }
     """
-    TABLE = """
-            QTableWidget {
-                         selection-background-color:#EDF7F8;
-                         selection-color:black;
-            }
-            QTableWidget::Item:hover {
-                         background:#EDF7F8;
-                         color:black;
-            }
-            QTableWidget::item:selected {
-                         background:#EDF7F8;
-                         color:black;
-            }
-            # QTableWidget QHeaderView::section{
-            #              background-color:#FFFFFF;
-            # }
-    """
 
-    ERROR_lABEL = """
-            QLabel {height: 25px;
-                    color: red;
+    COMPUTER_TREE = """
+            QTreeView{
+                      border: 1px solid #A0A0A0;
+            }
+            
+            QTreeView::item{
+                            height: 36px;
+                            border: 1px solid #DDDDDD;
+                            border-style: none none solid none;
+                            color: black;
+                            padding: 0px;
+                            
+            }
+            QTreeView::item:hover{
+                            background: #EDF7F8;
+                            border: 1px solid #BCE0E2;
+                            border-style: solid none solid none;
+            }
+            QTreeView::item:selected{
+                            background: #E2F2F3;
+                            border: 1px solid #4BAEB3;
+                            border-style: solid none solid none;
+                            
+            }
+            QTreeView::branch:selected{
+                                       outline: none;
+            }
+            QHeaderView{
+                        border: none;
+                        font-size: 14px;
+                        Font: Roman times;
+                        color: black;
+            }
+            QHeaderView::section:hover{
+                                       background-color:#FFFFFF;
+                                       border: none;
+                                       padding: 4px;
             }
     
     """
+
+
 

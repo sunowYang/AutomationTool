@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutomationTool.iml" filepath="$PROJECT_DIR$/.idea/AutomationTool.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/DigitalSignature.iml" filepath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/DigitalSignature.iml" />
       <module fileurl="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/.idea/WebTest.iml" filepath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/.idea/WebTest.iml" />
     </modules>
   </component>

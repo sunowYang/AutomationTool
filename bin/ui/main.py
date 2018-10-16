@@ -103,7 +103,7 @@ class LeftSide(QWidget):
     @staticmethod
     def link():
         link_button = QPushButton("检查链接")
-        # link_button.setIcon()
+        # link_button.setIcon(QIcon('res/icon_tool.png'))
         return link_button
 
     @staticmethod
@@ -172,10 +172,9 @@ class RightSide(QWidget):
         elif index == 2:
             # 执行计划
             select_task = self.down_side.selected_task
-
             select_task_row = select_task.row()
             if select_task_row == -1:   # 未选择任务
-                print 'Select no task'
+                QMessageBox.warning(self, '错误', '请选择一个任务后再执行')
             else:
                 # 获取选中行的第一列的数据，即任务名
                 first_column = QModelIndex(select_task)
