@@ -38,30 +38,35 @@ class ComputerTree(QWidget):
         self.tree.setModel(self.tree_model)
         self.tree_model.setColumnCount(self.column_count)
         self.tree.setColumnWidth(0, self.width()/4)
-        self.tree.setColumnWidth(1, self.width()/9)
-        self.tree.setColumnWidth(2, self.width()/9)
+        self.tree.setColumnWidth(1, self.width()/8)
+        self.tree.setColumnWidth(2, self.width()/8)
         self.tree.setColumnWidth(3, self.width()/5)
+        self.tree.setColumnWidth(4, self.width()/3)
         # 增加默认的本机电脑
-        self.add_computer(['这台电脑'])
+        local_computer = QStandardItem('这台电脑')
+        local_computer.setCheckable(True)
+        self.tree_model.setItem(0, 0, local_computer)
         # 增加最后一行的添加按钮
+        add = QStandardItem('添加电脑')
+        self.tree_model.setItem(1, 0, add)
         main_layout = QHBoxLayout()
         main_layout.addWidget(self.tree)
-
         self.setMinimumSize(800, 620)
         self.setStyleSheet(Style.COMMON_STYLE)
         self.setLayout(main_layout)
 
     def add_computer(self, computer):
+        item_list = []
         for index in range(len(computer)):
             child = QStandardItem(computer[index])
             if index == 0:
                 child.setCheckable(True)
             elif index == self.column_count:   # 超过最大列数，后续数据不显示
                 return
-            self.tree_model.setItem(self.computer_count, index, child)
-        # 除第一行本机外，其余行添加最后一列，显示删除图标
-        if self.computer_count != 0:
-            self.tree_model.setItem(self.computer_count, 6, QStandardItem('delete'))
+            item_list.append(child)
+        item_list.append(QStandardItem('Delete'))
+        self.tree_model.insertRow(self.computer_count + 1, item_list)
+
         self.computer_count += 1
 
     def add_computers(self, computers):
