@@ -16,26 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="getfileinfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/getfileinfo.py">
+      <file leaf-file-name="computer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/ui/computer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="400">
+              <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
               <folding>
-                <element signature="e#16#25#0" expanded="true" />
+                <element signature="e#15#25#0" expanded="true" />
+                <element signature="e#501#2589#0" expanded="false" />
+                <element signature="e#2020#2473#0" expanded="false" />
+                <element signature="e#2523#2589#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="computer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/ui/computer.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,9 +44,17 @@
       <file leaf-file-name="style.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="311">
+              <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+              <folding>
+                <element signature="e#4749#5339#0" expanded="false" />
+                <element signature="e#5378#5747#0" expanded="false" />
+                <element signature="e#5776#6233#0" expanded="false" />
+                <element signature="e#6258#6726#0" expanded="false" />
+                <element signature="e#6765#7135#0" expanded="false" />
+                <element signature="e#7158#7509#0" expanded="false" />
+                <element signature="e#9869#10078#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,17 +114,17 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/bin/ui/errordialog.py" />
         <option value="$PROJECT_DIR$/bin/ui/main.py" />
-        <option value="$PROJECT_DIR$/bin/ui/style.py" />
         <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
         <option value="$PROJECT_DIR$/bin/signature.py" />
         <option value="$PROJECT_DIR$/bin/getfileinfo.py" />
+        <option value="$PROJECT_DIR$/bin/ui/style.py" />
         <option value="$PROJECT_DIR$/bin/ui/computer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-436" />
-    <option name="y" value="103" />
+    <option name="x" value="277" />
+    <option name="y" value="73" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -137,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,21 +166,10 @@
               <item name="bin" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalSignature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalSignature" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,7 +370,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34110788" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22303207" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21656051" sideWeight="0.5176991" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -392,7 +392,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -549,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/Icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -631,9 +624,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding>
+            <element signature="e#4749#5339#0" expanded="false" />
+            <element signature="e#5378#5747#0" expanded="false" />
+            <element signature="e#5776#6233#0" expanded="false" />
+            <element signature="e#6258#6726#0" expanded="false" />
+            <element signature="e#6765#7135#0" expanded="false" />
+            <element signature="e#7158#7509#0" expanded="false" />
+            <element signature="e#9869#10078#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/getfileinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="20">
           <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
@@ -641,20 +650,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/computer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        <state relative-caret-position="400">
+          <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#501#2589#0" expanded="false" />
+            <element signature="e#2020#2473#0" expanded="false" />
+            <element signature="e#2523#2589#0" expanded="false" />
           </folding>
         </state>
       </provider>

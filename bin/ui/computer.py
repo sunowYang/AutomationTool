@@ -13,6 +13,10 @@ class TaskSetting(QDialog):
 
     def initUI(self):
         self.setStyleSheet(Style.COMMON_STYLE)
+        tree = ComputerTree2()
+        layout = QVBoxLayout()
+        layout.addWidget(tree)
+        self.setLayout(layout)
 
 
 class ComputerTree(QWidget):
@@ -74,11 +78,74 @@ class ComputerTree(QWidget):
             self.add_computer(computer)
 
 
+class ComputerTree2(QWidget):
+    def __init__(self, parent=None):
+        super(ComputerTree2, self).__init__(parent)
+        self.tree = QTreeWidget(self)
+        self.computer_count = 2
+        self.initUI()
+
+    def initUI(self):
+        self.tree.setColumnCount(6)
+        # 设置文字
+        self.tree.setFont(QFont('Roman times', 11))
+        self.tree.setStyleSheet(Style.COMPUTER_TREE)
+        # 隐藏头部
+        self.tree.setHeaderHidden(True)
+        # 设置第一列边距
+        self.tree.setIndentation(0)
+        # 设置选择item后，不显示边框虚线
+        self.tree.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        self.tree.setFocusPolicy(Qt.NoFocus)
+        # 设置列宽
+        self.setMinimumSize(800, 620)
+        self.tree.setColumnWidth(0, self.width()/4)
+        self.tree.setColumnWidth(1, self.width()/8)
+        self.tree.setColumnWidth(2, self.width()/8)
+        self.tree.setColumnWidth(3, self.width()/6)
+        self.tree.setColumnWidth(4, self.width()/4)
+        self.tree.setColumnWidth(5, self.width()/13)
+        # 添加默认的开始和结束列
+        self.add_first_and_end_column()
+        main_layout = QHBoxLayout()
+        main_layout.addWidget(self.tree)
+        main_layout.setContentsMargins(0, 0, 0, 0)
+        print self.width()
+        self.setStyleSheet(Style.COMMON_STYLE)
+        self.setLayout(main_layout)
+
+    def add_first_and_end_column(self):
+        # 添加第一行本机电脑
+        local_computer = QTreeWidgetItem(['本机电脑'])
+        local_computer.setCheckState(0, Qt.Checked)
+        add = QTreeWidgetItem()
+        add_button = QPushButton('添加...')
+        add_button.setStyleSheet(Style.TREE_ADD_BUTTON)
+        add_button.setFixedWidth(2000)
+        self.tree.addTopLevelItem(local_computer)
+        self.tree.addTopLevelItem(add)
+        self.tree.setItemWidget(add, 0, add_button)
+
+
+    def add_computer(self, computer):
+        item = QTreeWidgetItem(computer)
+        del_button = QLabel('Delete')
+        del_button.setStyleSheet(Style.TREE_DEL_LABEL)
+        item.setCheckState(0, Qt.Unchecked)
+        self.tree.insertTopLevelItem(self.computer_count-1, item)
+        self.tree.setItemWidget(item, 5, del_button)
+        self.computer_count += 1
+
+    def add_computers(self, computers):
+        for computer in computers:
+            self.add_computer(computer)
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    main_window = ComputerTree()
+    main_window = ComputerTree2()
     main_window.add_computers([['john', 'win10', 'X64', '192.168.1.112', '这个是跨磁盘系统'],
                                ['python', 'win7', 'X64', '192.168.1.111', '跨磁盘系统']])
+    # main_window = TaskSetting()
     main_window.show()
     sys.exit(app.exec_())

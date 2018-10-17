@@ -212,30 +212,29 @@ class Style:
     """
 
     COMPUTER_TREE = """
-            QTreeView{
+            QTreeWidget{
                       border: 1px solid #A0A0A0;
+                      border-style: solid solid solid solid;
             }
             
-            QTreeView::item{
+            QTreeWidget::item{
                             height: 36px;
                             border: 1px solid #DDDDDD;
-                            border-style: none none solid none;
+                            border-style: solid none none none;
                             color: black;
                             padding: 0px;
                             
             }
-            QTreeView::item:hover{
+            QTreeWidget::item:hover{
                             background: #EDF7F8;
-                            border: 1px solid #BCE0E2;
-                            border-style: solid none solid none;
             }
-            QTreeView::item:selected{
+            QTreeWidget::item:selected{
                             background: #E2F2F3;
                             border: 1px solid #4BAEB3;
                             border-style: solid none solid none;
                             
             }
-            QTreeView::branch:selected{
+            QTreeWidget::branch:selected{
                                        outline: none;
             }
             QHeaderView{
@@ -249,7 +248,38 @@ class Style:
                                        border: none;
                                        padding: 4px;
             }
-    
+            QTreeWidget::indicator{
+                                    width: 20px;
+                                    height: 20px;
+            }
+            QTreeWidget::indicator:checked{
+                                          image:url(../../res/check_sel.png);
+            }
+            QTreeWidget::indicator:unchecked{
+                                          image:url(../../res/check_unsel.png);
+            }
+    """
+    # 树中的BUTTON
+    TREE_ADD_BUTTON = """
+                   QPushButton{
+                                font: 15px;
+                                background-color: #FFFFFF;
+                                color: #4BAEB3;
+                                border: 0px;
+                                text-align: left;
+                                padding-left: 5px;
+                   } 
+                   QPushButton:hover{
+                                     color: #4BBCDA;
+                   }
+    """
+    TREE_DEL_LABEL = """
+                    QLabel{
+                            color: #FFFFFF;
+                    }
+                    QLabel:hover{
+                                color: #4BAEB3;
+                    }
     """
 
 
