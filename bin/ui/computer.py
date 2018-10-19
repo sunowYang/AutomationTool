@@ -16,6 +16,7 @@ class TaskSetting(QDialog):
         tree = ComputerTree2()
         layout = QVBoxLayout()
         layout.addWidget(tree)
+        self.setWindowTitle('任务设置')
         self.setLayout(layout)
 
 
@@ -110,7 +111,6 @@ class ComputerTree2(QWidget):
         main_layout = QHBoxLayout()
         main_layout.addWidget(self.tree)
         main_layout.setContentsMargins(0, 0, 0, 0)
-        print self.width()
         self.setStyleSheet(Style.COMMON_STYLE)
         self.setLayout(main_layout)
 
@@ -122,30 +122,64 @@ class ComputerTree2(QWidget):
         add_button = QPushButton('添加...')
         add_button.setStyleSheet(Style.TREE_ADD_BUTTON)
         add_button.setFixedWidth(2000)
+        add_button.clicked.connect(self.add_window)
         self.tree.addTopLevelItem(local_computer)
         self.tree.addTopLevelItem(add)
         self.tree.setItemWidget(add, 0, add_button)
 
 
-    def add_computer(self, computer):
+    def insert_computer(self, computer):
         item = QTreeWidgetItem(computer)
-        del_button = QLabel('Delete')
-        del_button.setStyleSheet(Style.TREE_DEL_LABEL)
+        del_label = MyLabel("Delete")
+        del_label.setStyleSheet(Style.TREE_DEL_LABEL)
+        del_label.LabelClicked.connect(self.delete_computer)
         item.setCheckState(0, Qt.Unchecked)
         self.tree.insertTopLevelItem(self.computer_count-1, item)
-        self.tree.setItemWidget(item, 5, del_button)
+        self.tree.setItemWidget(item, 5, del_label)
         self.computer_count += 1
 
-    def add_computers(self, computers):
+    def insert_computers(self, computers):
         for computer in computers:
-            self.add_computer(computer)
+            self.insert_computer(computer)
+
+    def delete_computer(self):
+        self.tree.takeTopLevelItem(self.tree.currentIndex().row())
+
+    def add_window(self):
+        window = AddComputer(self)
+        if window.exec_():
+            pass
+        computer = window.info
+
+
+class MyLabel(QLabel):
+    LabelClicked = pyqtSignal()
+
+    def __init__(self, text=None):
+        super(MyLabel, self).__init__()
+        if text is not None:
+            self.setText(text)
+
+    def mousePressEvent(self, evt):
+        self.LabelClicked.emit()
+
+
+class AddComputer(QDialog):
+    def __init__(self, parent=None):
+        super(AddComputer, self).__init__(parent)
+        self.info = []
+        self.initUI()
+
+    def initUI(self):
+        self.resize(600, 400)
+        self.setWindowTitle("添加电脑")
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main_window = ComputerTree2()
-    main_window.add_computers([['john', 'win10', 'X64', '192.168.1.112', '这个是跨磁盘系统'],
-                               ['python', 'win7', 'X64', '192.168.1.111', '跨磁盘系统']])
+    main_window.insert_computers([['john', 'win10', 'X64', '192.168.1.112', '这个是跨磁盘系统'],
+                                  ['python', 'win7', 'X64', '192.168.1.111', '跨磁盘系统']])
     # main_window = TaskSetting()
     main_window.show()
     sys.exit(app.exec_())
