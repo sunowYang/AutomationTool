@@ -253,10 +253,10 @@ class Style:
                                     height: 20px;
             }
             QTreeWidget::indicator:checked{
-                                          image:url(../../res/check_sel.png);
+                                          image:url(res/check_sel.png);
             }
             QTreeWidget::indicator:unchecked{
-                                          image:url(../../res/check_unsel.png);
+                                          image:url(es/check_unsel.png);
             }
     """
     # 树中的BUTTON
@@ -279,6 +279,16 @@ class Style:
                     }
                     QLabel:hover{
                                 color: #4BAEB3;
+                    }
+    """
+
+    # 可点击Label
+    CLICK_LABEL = """
+                    QLabel{
+                            color: #4BAEB3;
+                    }
+                    QLabel:hover{
+                                color: #4BBCDA;
                     }
     """
 

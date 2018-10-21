@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from option import OptionWnd
+from task import TaskSetting
 from style import Style
 
 
@@ -79,9 +79,9 @@ class LeftSide(QWidget):
         self.setPalette(pal)
         self.setAutoFillBackground(True)
 
-    def option_wnd(self):
-        option = OptionWnd()
-        if option.exec_():
+    def task_setting(self):
+        task = TaskSetting(self)
+        if task.exec_():
             print '1111'
 
     def tasks(self):
@@ -97,7 +97,7 @@ class LeftSide(QWidget):
         new_task_button.setIcon(QIcon('res/addtask.png'))
         new_task_button.setIconSize(QSize(17, 17))
         new_task_button.setStyleSheet(Style.LEFT_SIDE_TASK_BUTTON)
-        new_task_button.clicked.connect(self.option_wnd)
+        new_task_button.clicked.connect(self.task_setting)
         return new_task_button
 
     @staticmethod

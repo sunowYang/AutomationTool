@@ -261,10 +261,10 @@ class Save(QWidget):
         self.button_save.setStyleSheet(Style.PROCEED_BUTTON)
         self.button_cancel = QPushButton('取消')
         # 添加错误说明
-        self.error_message = QLabel()
-        self.error_message.setStyleSheet(Style.ERROR_lABEL)
+        # self.error_message = QLabel()
+        # self.error_message.setStyleSheet(Style.ERROR_lABEL)
         main_layout.addStretch(1)
-        main_layout.addWidget(self.error_message)
+        # main_layout.addWidget(self.error_message)
         main_layout.addWidget(self.button_save)
         main_layout.addWidget(self.button_cancel)
 
