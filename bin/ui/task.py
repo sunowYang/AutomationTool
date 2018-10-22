@@ -12,6 +12,7 @@ class TaskSetting(QDialog):
         self.case_location = QLineEdit()
         self.result_location = QLineEdit()
         self.task_name = QLineEdit()
+        self.setStyleSheet(Style.COMMON_STYLE)
         self.initUI()
 
     def initUI(self):
@@ -20,12 +21,14 @@ class TaskSetting(QDialog):
         case_layout = QHBoxLayout()
         browse_btn1 = QPushButton('浏览')
         browse_btn1.clicked.connect(self.browse1)
+        self.case_location.setDisabled(True)
         case_layout.addWidget(self.case_location)
         case_layout.addWidget(browse_btn1)
 
         result_layout = QHBoxLayout()
         browse_btn2 = QPushButton('浏览')
         browse_btn2.clicked.connect(self.browse2)
+        self.result_location.setDisabled(True)
         result_layout.addWidget(self.result_location)
         result_layout.addWidget(browse_btn2)
 
@@ -33,12 +36,23 @@ class TaskSetting(QDialog):
         option_label = MyLabel("设置选项")
         option_label.LabelClicked.connect(self.option)
         option_label.setStyleSheet(Style.CLICK_LABEL)
+        option_icon = QLabel()
+        option_icon.setPixmap(QPixmap('res/icon_operation.png'))
+        option_icon.setFixedSize(16, 16)
+        option_icon.setScaledContents(True)
+
         schedule_label = MyLabel("设置计划")
         schedule_label.LabelClicked.connect(self.schedule)
         schedule_label.setStyleSheet(Style.CLICK_LABEL)
-        option_schedule_layout.addSpacing(50)
+
+        schedule_icon = QLabel()
+        schedule_icon.setPixmap(QPixmap('res/icon_shcedule_backup.png'))
+        schedule_icon.setFixedSize(16, 16)
+        schedule_icon.setScaledContents(True)
+        option_schedule_layout.addWidget(option_icon)
         option_schedule_layout.addWidget(option_label)
         option_schedule_layout.addSpacing(40)
+        option_schedule_layout.addWidget(schedule_icon)
         option_schedule_layout.addWidget(schedule_label)
         option_schedule_layout.addStretch(1)
 
@@ -56,6 +70,7 @@ class TaskSetting(QDialog):
         layout = QVBoxLayout()
         layout.addWidget(QLabel('请选择要执行任务的计算机：'))
         layout.addWidget(tree)
+        layout.setSpacing(10)
         layout.addWidget(QLabel('请选择要执行的用例和结果存放路径：'))
         layout.setSpacing(10)
         layout.addLayout(case_layout)
@@ -65,13 +80,13 @@ class TaskSetting(QDialog):
         layout.addWidget(self.task_name)
         layout.addSpacing(10)
         layout.addLayout(option_schedule_layout)
-        layout.addSpacing(30)
+        layout.addSpacing(10)
         layout.addLayout(btn_layout)
 
         layout.addStretch(1)
-        layout.setContentsMargins(10, 5, 10, 10)
+        layout.setContentsMargins(10, 20, 10, 10)
         self.setStyleSheet(Style.COMMON_STYLE)
-        self.setFixedSize(820, 640)
+        self.setFixedSize(780, 600)
         self.setWindowTitle('自动化任务')
         self.setLayout(layout)
 
@@ -241,7 +256,7 @@ class ComputerTree3(QTreeWidget):
         self.initUI()
 
     def initUI(self):
-        self.setFixedHeight(300)
+        self.setFixedHeight(280)
         self.setColumnCount(6)
         # 设置文字
         self.setFont(QFont('Roman times', 11))
@@ -262,9 +277,7 @@ class ComputerTree3(QTreeWidget):
         self.setColumnWidth(5, self.width()/13)
         # 添加默认的开始和结束列
         self.add_first_and_end_column()
-        # self.setStyleSheet(Style.COMMON_STYLE)
-        self.setMouseTracking(True)
-        self.show()
+        self.setMouseTracking(True)    # 允许捕捉鼠标位置
 
     def add_first_and_end_column(self):
         # 添加第一行本机电脑

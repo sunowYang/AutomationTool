@@ -15,11 +15,15 @@ class Style:
             QRadioButton::indicator:checked {image:url(res/radio_checked.png);}
 
             QLineEdit {height: 30px;
+                       font: 15px;
                        border:1px solid #D7D7D7;
                        selection-color: white;
                        margin: 2px;}
             
-            QLabel {height: 40px;}
+            QLabel {
+                    height: 40px;
+                    font: 15px;
+            }
             
             QComboBox {height:30px;
                        width:120px;
@@ -270,7 +274,7 @@ class Style:
                                 padding-left: 5px;
                    } 
                    QPushButton:hover{
-                                     color: #4BBCDA;
+                                     color: #2A7A7E;
                    }
     """
     TREE_DEL_LABEL = """
@@ -288,7 +292,7 @@ class Style:
                             color: #4BAEB3;
                     }
                     QLabel:hover{
-                                color: #4BBCDA;
+                                color: #2A7A7E;
                     }
     """
 
