@@ -106,8 +106,8 @@ class NavigationWidget(QWidget):
 
 
 class OptionWnd(QDialog):
-    def __init__(self):
-        super(OptionWnd, self).__init__()
+    def __init__(self, parent=None):
+        super(OptionWnd, self).__init__(parent)
         self.svn = SvnPage.SvnPage()
         self.svn_parameter = SvnPage.SvnParameter()
         self.package = PackagePage.PackagePage()
@@ -118,10 +118,10 @@ class OptionWnd(QDialog):
         self.setFixedSize(800, 400)
         self.setWindowTitle(u'任务设置')
 
-        mainWidget = QWidget()
-        navigationWidget = NavigationWidget()
-        navigationWidget.setRowHeight(50)
-        navigationWidget.setItems([u'更新脚本', u'更新安装包', u'执行模块', u'邮件通知', u'执行计划'])
+        main_widget = QWidget()
+        navigation_widget = NavigationWidget()
+        navigation_widget.setRowHeight(50)
+        navigation_widget.setItems([u'更新脚本', u'更新安装包', u'执行模块', u'邮件通知', u'执行计划'])
 
         self.page1 = SvnPage.SvnPage()
         self.page2 = PackagePage.PackagePage()
@@ -129,13 +129,13 @@ class OptionWnd(QDialog):
         self.tipsLabel = QLabel(u"请选择：")
         self.option = AddOptions(self)
 
-        mainLayout = QVBoxLayout(mainWidget)
+        mainLayout = QVBoxLayout(main_widget)
         mainLayout.setContentsMargins(0, 0, 0, 0)
         mainLayout.setSpacing(0)
 
         # 上面一部分layout，主要是左侧栏和右侧栏
         up_layout = QHBoxLayout()
-        up_layout.addWidget(navigationWidget, 1)
+        up_layout.addWidget(navigation_widget, 1)
         up_layout.addWidget(self.page1, 3)
         up_layout.addWidget(self.page2, 3)
         up_layout.addWidget(self.page3, 3)
@@ -144,8 +144,8 @@ class OptionWnd(QDialog):
         self.button.button_save.clicked.connect(self.save)
         self.button.button_cancel.clicked.connect(self.close)
         # 整体布局
-        navigationWidget.currentItemChanged[int, str].connect(self.slotCurrentItemChanged)
-        navigationWidget.setCurrentIndex(2)
+        navigation_widget.currentItemChanged[int, str].connect(self.slotCurrentItemChanged)
+        navigation_widget.setCurrentIndex(2)
         mainLayout.addLayout(up_layout, 8)
         mainLayout.addWidget(self.button, 1)
 

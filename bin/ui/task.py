@@ -4,6 +4,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from style import Style
+from option import OptionWnd
 
 
 class TaskSetting(QDialog):
@@ -85,10 +86,17 @@ class TaskSetting(QDialog):
 
         layout.addStretch(1)
         layout.setContentsMargins(10, 20, 10, 10)
+        self.setBackgroundColor(QColor('#FFFFFF'))
         self.setStyleSheet(Style.COMMON_STYLE)
         self.setFixedSize(780, 600)
         self.setWindowTitle('自动化任务')
         self.setLayout(layout)
+
+    def setBackgroundColor(self, color):
+        pal = QPalette()
+        pal.setColor(QPalette.Background, color)
+        self.setPalette(pal)
+        self.setAutoFillBackground(True)
 
     def browse1(self):
         file_name, file_type = QFileDialog.getOpenFileName(None, '选择用例', './', '*.xlsx')
@@ -99,7 +107,9 @@ class TaskSetting(QDialog):
         self.result_location.setText(dir_name)
 
     def option(self):
-        pass
+        option_wnd = OptionWnd(self)
+        if option_wnd.exec_():
+            pass
 
     def schedule(self):
         pass
@@ -318,7 +328,6 @@ class ComputerTree3(QTreeWidget):
 
     def mouseMoveEvent(self, evt):
         self.current_index = evt.y()/36
-        print self.current_index
 
 
 class MyLabel(QLabel):
@@ -392,8 +401,8 @@ class AddComputer(QDialog):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     # main_window = ComputerTree3()
-    # main_window.insert_computers([['john', 'win10', 'X64', '192.168.1.112', '这个是跨磁盘系统'],
-    #                               ['python', 'win7', 'X64', '192.168.1.111', '跨磁盘系统']])
+    # main_window.insert_computers([['john', 'win10', 'X64', '192.168.1.112', 'connected'],
+    #                               ['python', 'win7', 'X64', '192.168.1.111', 'connected']])
     main_window = TaskSetting()
     main_window.show()
     sys.exit(app.exec_())

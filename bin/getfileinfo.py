@@ -66,11 +66,9 @@ class FileOperation:
         return signature_list
 
 
-
-
-
 if __name__ == '__main__':
     file_path1 = r'C:\Program Files (x86)\EaseUS\Todo Backup\bin\loader.exe'
     contr_list = ['sha256', 'Issued to', 'Issued by', 'Expires', 'SHA1 hash']
     file_info = FileOperation()
-    file_info.get_digital_signature_info(file_path1)
+    print file_info.get_digital_signature_info(file_path1)
+    # print file_info.info

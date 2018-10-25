@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="WebTest" />
     <orderEntry type="module" module-name="DigitalSignature" />
+    <orderEntry type="module" module-name="robot" />
   </component>
 </module>

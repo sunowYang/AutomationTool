@@ -289,10 +289,10 @@ class Style:
     # 可点击Label
     CLICK_LABEL = """
                     QLabel{
-                            color: #4BAEB3;
+                            color: #2A7A7E;
                     }
                     QLabel:hover{
-                                color: #2A7A7E;
+                                color: #4BAEB3;
                     }
     """
 
