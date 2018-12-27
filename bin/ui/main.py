@@ -5,6 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from task import TaskSetting
 from style import Style
+from bin.automation.runcase import *
 
 
 class MainWindow(QMainWindow):
@@ -167,26 +168,35 @@ class RightSide(QWidget):
         self.setAutoFillBackground(True)
 
     def click_button(self, index):
+        # task_name = ""
         if index == -1:
-            print 'No button'
-        elif index == 2:
-            # 执行计划
+            return
+        else:
             select_task = self.down_side.selected_task
             select_task_row = select_task.row()
             if select_task_row == -1:   # 未选择任务
                 QMessageBox.warning(self, '错误', '请选择一个任务后再执行')
+                return
             else:
                 # 获取选中行的第一列的数据，即任务名
                 first_column = QModelIndex(select_task)
                 first_column = first_column.sibling(select_task_row, 0)
-                first_column_data = self.down_side.tree_model.itemData(first_column).values()[0]
-                print ('select task: %s' % first_column_data)
+                task_name = self.down_side.tree_model.itemData(first_column).values()[0]
+                print ('select task: %s' % task_name)
+        if index == 2:
+            self.execute(task_name)
+            # 执行计划
         elif index == 1:
             # 编辑计划
             pass
         elif index == 0:
             # 删除计划
             pass
+
+    def execute(self, task_name):
+        # 执行任务，根据给定任务名查找任务，读取任务配置信息，然后执行
+        pass
+
 
 
 class RightUpSide(QWidget):
@@ -332,12 +342,4 @@ def run(tasks):
     main_window.show()
     sys.exit(app.exec_())
 
-
-if __name__ == '__main__':
-    tasks = [['file', 'file cases', 'success', r'C:\123\123']]
-    app = QApplication(sys.argv)
-    main_window = RightDownSide(tasks)
-    # main_window.add_tasks(tasks)
-    main_window.show()
-    sys.exit(app.exec_())
 

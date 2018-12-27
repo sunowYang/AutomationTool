@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="3f43b771-8ef9-4c0b-9c88-76217dc01a74" name="Default" comment="">
-      <change beforePath="" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/test.html" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
-      <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Function/search.py" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Function/search.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/automation/runcase.py" afterPath="$PROJECT_DIR$/bin/automation/runcase.py" />
+      <change beforePath="$PROJECT_DIR$/bin/signature.py" afterPath="$PROJECT_DIR$/bin/signature.py" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/main.py" afterPath="$PROJECT_DIR$/bin/ui/main.py" />
+      <change beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
       <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" />
       <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
     </list>
@@ -17,49 +20,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/ui/task.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#15#25#0" expanded="true" />
-                <element signature="e#3534#3660#0" expanded="false" />
-                <element signature="e#3693#3806#0" expanded="false" />
-                <element signature="e#4025#6113#0" expanded="false" />
-                <element signature="e#6150#8985#0" expanded="false" />
-                <element signature="e#11476#11709#0" expanded="false" />
-                <element signature="e#11744#13557#0" expanded="false" />
+                <element signature="e#287#296#0" expanded="true" />
+                <element signature="e#1524#2092#0" expanded="false" />
+                <element signature="e#2164#3422#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py">
+      <file leaf-file-name="WriteResult.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="1881">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownLoadAndUncompress.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/DownLoadAndUncompress.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runcase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/automation/runcase.py">
+      <file leaf-file-name="getfileinfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="1235">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/robot/run.py">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/config/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1488">
-              <caret line="432" column="43" lean-forward="false" selection-start-line="432" selection-start-column="43" selection-end-line="432" selection-end-column="43" />
+            <state relative-caret-position="133">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -78,6 +99,8 @@
     <findStrings>
       <find>text</find>
       <find>update</find>
+      <find>count</find>
+      <find>count()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/BackupDialog.py" />
-        <option value="$PROJECT_DIR$/bin/test.py" />
-        <option value="$PROJECT_DIR$/bin/layout.py" />
         <option value="$PROJECT_DIR$/bin/pages.py" />
         <option value="$PROJECT_DIR$/bin/pages/Pagkagepage.py" />
         <option value="$PROJECT_DIR$/bin/pages/SvnPage.py" />
@@ -97,7 +117,6 @@
         <option value="$PROJECT_DIR$/bin/pages/ExecutePage.py" />
         <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/123" />
         <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini" />
-        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
         <option value="$PROJECT_DIR$/bin/pages/PagkagePage.py" />
         <option value="$PROJECT_DIR$/bin/style.py" />
         <option value="$PROJECT_DIR$/bin/MainWindow.py" />
@@ -117,12 +136,8 @@
         <option value="$PROJECT_DIR$/bin/ui/pages/SvnPage.py" />
         <option value="$PROJECT_DIR$/bin/ui/__init__.py" />
         <option value="$PROJECT_DIR$/bin/ui/error.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/bin/ui/errordialog.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
-        <option value="$PROJECT_DIR$/bin/signature.py" />
         <option value="$PROJECT_DIR$/bin/ui/computer.py" />
-        <option value="$PROJECT_DIR$/bin/ui/main.py" />
         <option value="$PROJECT_DIR$/bin/getfileinfo.py" />
         <option value="$PROJECT_DIR$/bin/ui/style.py" />
         <option value="$PROJECT_DIR$/bin/ui/task.py" />
@@ -130,6 +145,22 @@
         <option value="$PROJECT_DIR$/bin/log.py" />
         <option value="$PROJECT_DIR$/bin/automation/main.py" />
         <option value="$PROJECT_DIR$/bin/automation/runcase.py" />
+        <option value="$PROJECT_DIR$/bin/automation/gettasks.py" />
+        <option value="$PROJECT_DIR$/bin/ui/main.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/bin/gettasks.py" />
+        <option value="$PROJECT_DIR$/bin/signature.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/DownLoadAndUncompress.py" />
+        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
+        <option value="D:/python/py_scripts/AutoInstallEPM.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/config/config.ini" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py" />
+        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/使用说明.txt" />
       </list>
     </option>
   </component>
@@ -161,22 +192,7 @@
           <expand>
             <path>
               <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="DigitalSignature" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +204,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Python27/Lib/site-packages/robot" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/yuanbin/Documents/GitHub/AutomationTool/bin/option.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -200,16 +216,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tasks\file" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin\ui" />
       <recent name="D:\_WorkFile\2018\TestPlatform\Program\WebTest\Resources" />
       <recent name="$PROJECT_DIR$/bin/pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature\bin" />
+      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature\tools" />
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tasks" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\res" />
-      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\res\backup_option" />
-      <recent name="$PROJECT_DIR$/bin/pages" />
-      <recent name="$PROJECT_DIR$/bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,20 +242,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="computer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/task.py" />
+      <module name="DigitalSignature" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DigitalSignature" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="WriteResult" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DigitalSignature" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="getfileinfo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DigitalSignature" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,74 +333,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="option (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ui/option.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.option (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run" />
-      <item index="3" class="java.lang.String" itemvalue="Python.computer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.getfileinfo" />
+      <item index="0" class="java.lang.String" itemvalue="Python.getfileinfo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Run" />
+      <item index="2" class="java.lang.String" itemvalue="Python.WriteResult" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getfileinfo (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getfileinfo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.computer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.option (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.WriteResult" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getfileinfo (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Run" />
+        <item index="4" class="java.lang.String" itemvalue="Python.getfileinfo" />
       </list>
     </recent_temporary>
   </component>
@@ -373,20 +391,28 @@
       <option name="presentableId" value="Default" />
       <updated>1532155400480</updated>
     </task>
+    <task id="LOCAL-00001" summary="1、更新说明文档">
+      <created>1545897484519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545897484519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2158528" sideWeight="0.48230088" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24645892" sideWeight="0.48230088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25947523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29154518" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21656051" sideWeight="0.5176991" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,101 +426,22 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、更新说明文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、更新说明文档" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3380">
-          <caret line="268" column="21" lean-forward="true" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
-          <folding>
-            <element signature="e#249#3642#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/pages/PackagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4340">
-          <caret line="287" column="21" lean-forward="true" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
-          <folding>
-            <element signature="e#4850#5440#0" expanded="false" />
-            <element signature="e#5479#5848#0" expanded="false" />
-            <element signature="e#5877#6334#0" expanded="false" />
-            <element signature="e#6359#6827#0" expanded="false" />
-            <element signature="e#6866#7236#0" expanded="false" />
-            <element signature="e#7259#7610#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py" />
-    <entry file="file://$PROJECT_DIR$/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/bin/pages.py" />
-    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/123" />
-    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini" />
-    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QLayout.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QBoxLayout.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/Left.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/Right.py" />
-    <entry file="file://$PROJECT_DIR$/bin/ui/down.py" />
     <entry file="file://$PROJECT_DIR$/bin/ui/svnlayout.py" />
     <entry file="file://$PROJECT_DIR$/bin/ui/BackupDialog.py" />
     <entry file="file://$PROJECT_DIR$/bin/ui/save.py" />
@@ -515,14 +462,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/errordialog.py" />
     <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/MD5Check/checkmd5.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/使用说明.txt" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/config/config.ini" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/log.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/DownLoadAndUncompress.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
     <entry file="file://$PROJECT_DIR$/bin/ui/pages/PackagePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2000">
@@ -530,28 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/getfileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#377#2737#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4480">
           <caret line="294" column="46" lean-forward="false" selection-start-line="294" selection-start-column="46" selection-end-line="294" selection-end-column="46" />
-          <folding>
-            <element signature="e#4850#5440#0" expanded="false" />
-            <element signature="e#5479#5848#0" expanded="false" />
-            <element signature="e#5877#6334#0" expanded="false" />
-            <element signature="e#6359#6827#0" expanded="false" />
-            <element signature="e#6866#7236#0" expanded="false" />
-            <element signature="e#7259#7610#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,79 +480,294 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1960">
           <caret line="197" column="19" lean-forward="false" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
-          <folding>
-            <element signature="e#249#3642#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#16#25#0" expanded="false" />
-            <element signature="e#60#1089#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-            <element signature="e#3534#3660#0" expanded="false" />
-            <element signature="e#3693#3806#0" expanded="false" />
-            <element signature="e#4025#6113#0" expanded="false" />
-            <element signature="e#6150#8985#0" expanded="false" />
-            <element signature="e#11476#11709#0" expanded="false" />
-            <element signature="e#11744#13557#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#4193#5986#0" expanded="false" />
-            <element signature="e#5220#5986#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/robot/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488">
-          <caret line="432" column="43" lean-forward="false" selection-start-line="432" selection-start-column="43" selection-end-line="432" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="-786">
+          <caret line="491" column="14" lean-forward="false" selection-start-line="491" selection-start-column="9" selection-end-line="491" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/file/file.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/automation/runcase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1406">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/ConfigParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11191">
+          <caret line="589" column="33" lean-forward="false" selection-start-line="589" selection-start-column="27" selection-end-line="589" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/gettasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/signature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/xlwt/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/xlwt/Style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/getfileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="3379" column="31" lean-forward="true" selection-start-line="3379" selection-start-column="31" selection-end-line="3379" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py.mine" />
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/test.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/WacthFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/py_scripts/AutoInstallEPM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Function/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/Resources/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/DownLoadAndUncompress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/使用说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#287#296#0" expanded="true" />
+            <element signature="e#1524#2092#0" expanded="false" />
+            <element signature="e#2164#3422#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
