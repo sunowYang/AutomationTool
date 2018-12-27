@@ -23,13 +23,13 @@ class MainWindow(QMainWindow):
         # 创建主界面layout
         main_layout = QHBoxLayout()
         main_layout.setContentsMargins(0, 0, 0, 0)
-        spliter = QSplitter(Qt.Horizontal)
-        spliter.addWidget(LeftSide())
-        spliter.addWidget(RightSide(self.tasks))
-        # 设置spliter的宽度以及比例
-        spliter.setHandleWidth(4)
-        spliter.setStretchFactor(1, 3)
-        main_layout.addWidget(spliter)
+        splitter = QSplitter(Qt.Horizontal)
+        splitter.addWidget(LeftSide())
+        splitter.addWidget(RightSide(self.tasks))
+        # 设置splitter的宽度以及比例
+        splitter.setHandleWidth(4)
+        splitter.setStretchFactor(1, 3)
+        main_layout.addWidget(splitter)
         # 设置主界面相关
         main_frame = QWidget()
         main_frame.setLayout(main_layout)

@@ -13,20 +13,25 @@ def get_tasks(log, task_path):
         dir_path = os.path.join(task_path, _dir)
         # get task file *.ini
         if os.path.isdir(dir_path):
-            task = parse(log, os.path.join(dir_path, _dir, '.ini'))
+            task = parse(log, os.path.join(dir_path, _dir + '.ini'))
             if task:
                 tasks.append(task)
         else:
             continue
+    return tasks
 
 
 def parse(log, file_path):
+    data = []
     if not os.path.exists(file_path):
         log.logger.warn("Task file is not exist: %s" % file_path)
         return None
     config = ConfigParser()
     config.read(file_path)
-    return 111
+    for section in config.sections():
+        for key in config.options(section):
+            data.append(config.get(section, key))
+    return data
 
 
 if __name__ == '__main__':

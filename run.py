@@ -19,7 +19,8 @@ LOG = MyLog(BASE_PATH, 'log.log')
 TASK_PATH = os.path.join(BASE_PATH, 'tasks')
 
 if __name__ == '__main__':
-    try:
-        run(get_tasks(LOG, TASK_PATH))
-    except Exception as e:
-        QMessageBox.error('错误', e)
+    # try:
+    #     run(get_tasks(LOG, TASK_PATH))
+    # except Exception as e:
+    #     QMessageBox.information('错误', e)
+    run(get_tasks(LOG, TASK_PATH))
