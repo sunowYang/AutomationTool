@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutomationTool.iml" filepath="$PROJECT_DIR$/.idea/AutomationTool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DigitalSignature/.idea/DigitalSignature.iml" filepath="$PROJECT_DIR$/../DigitalSignature/.idea/DigitalSignature.iml" />
       <module fileurl="file://D:/_WorkFile/2018/TestPlatform/Program/WebTest/.idea/WebTest.iml" filepath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/.idea/WebTest.iml" />
       <module fileurl="file://C:/Python27/Lib/site-packages/robot/.idea/robot.iml" filepath="C:/Python27/Lib/site-packages/robot/.idea/robot.iml" />
+      <module fileurl="file://C:/Python27/Lib/site-packages/robotide/.idea/robotide.iml" filepath="C:/Python27/Lib/site-packages/robotide/.idea/robotide.iml" />
     </modules>
   </component>
 </project>

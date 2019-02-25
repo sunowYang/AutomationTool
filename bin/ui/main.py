@@ -13,9 +13,10 @@ class MainWindow(QMainWindow):
     界面初始化：
         创建1个main layout,包括左右两个子layout
     """
-    def __init__(self, tasks, parent=None):
+    def __init__(self, tasks, base_path, parent=None):
         super(MainWindow, self).__init__(parent)
         self.tasks = tasks
+        self.base_path = base_path
         # 初始化界面
         self.initUI()
 
@@ -101,10 +102,10 @@ class LeftSide(QWidget):
         new_task_button.clicked.connect(self.task_setting)
         return new_task_button
 
-    @staticmethod
-    def link():
+    def link(self):
         link_button = QPushButton("检查链接")
         # link_button.setIcon(QIcon('res/icon_tool.png'))
+        link_button.clicked.connect(self.click_link)
         return link_button
 
     @staticmethod
@@ -136,6 +137,10 @@ class LeftSide(QWidget):
     def reset_time():
         reset_button = QPushButton("重置时间")
         return reset_button
+
+    def click_link(self):
+        pass
+
 
 
 class RightSide(QWidget):
@@ -191,12 +196,12 @@ class RightSide(QWidget):
             pass
         elif index == 0:
             # 删除计划
+            self.down_side.del_task(select_task_row)
             pass
 
     def execute(self, task_name):
         # 执行任务，根据给定任务名查找任务，读取任务配置信息，然后执行
         pass
-
 
 
 class RightUpSide(QWidget):
@@ -334,11 +339,14 @@ class RightDownSide(QWidget):
     def selected_task(self):
         return self.tree.currentIndex()
 
+    def del_task(self, index):
+        self.tree_model.removeRow(index)
 
-def run(tasks):
+
+def run(tasks, base_path):
     app = QApplication(sys.argv)
     # main_window = LeftSide()
-    main_window = MainWindow(tasks)
+    main_window = MainWindow(tasks, base_path)
     main_window.show()
     sys.exit(app.exec_())
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$USER_HOME$/Desktop/Automatic antivirus script" vcs="svn" />
+    <mapping directory="$USER_HOME$/Desktop/TB_SCRIPT" vcs="svn" />
     <mapping directory="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature" vcs="svn" />
+    <mapping directory="$USER_HOME$/Desktop/TB_md5" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../DigitalSignature" vcs="Git" />
     <mapping directory="D:/_WorkFile/2018/TestPlatform/Program/WebTest" vcs="svn" />

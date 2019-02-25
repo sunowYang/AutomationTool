@@ -2,6 +2,11 @@
 
 
 class Style:
+    STYLE = """
+            QProgressBar{background-color:#FFFFFF;text-align:center;}
+            QProgressBar::chunk{Background-color:#4BAEB3;}
+    """
+
     COMMON_STYLE = """
             QCheckBox { spacing: 10px;}
             QCheckBox::indicator {width: 20px;height: 20px;}

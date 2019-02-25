@@ -400,9 +400,9 @@ class AddComputer(QDialog):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    # main_window = ComputerTree3()
-    # main_window.insert_computers([['john', 'win10', 'X64', '192.168.1.112', 'connected'],
-    #                               ['python', 'win7', 'X64', '192.168.1.111', 'connected']])
-    main_window = TaskSetting()
+    main_window = ComputerTree3()
+    main_window.insert_computers([['john', 'win10', 'X64', '192.168.1.112', 'connected'],
+                                  ['python', 'win7', 'X64', '192.168.1.111', 'connected']])
+    # main_window = TaskSetting()
     main_window.show()
     sys.exit(app.exec_())
