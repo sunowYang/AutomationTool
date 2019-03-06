@@ -20,6 +20,6 @@ TASK_PATH = os.path.join(BASE_PATH, 'tasks')
 
 if __name__ == '__main__':
     try:
-        run(get_tasks(LOG, TASK_PATH), BASE_PATH)
+        run(LOG, get_tasks(LOG, TASK_PATH), BASE_PATH)
     except Exception as e:
-        QMessageBox.information('错误', e)
+        QMessageBox.information('错误', e.message)

@@ -4,8 +4,9 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from task import TaskSetting
-from style import Style
+from style import STYLE, Style
 from bin.automation.runcase import *
+from bin.linkcheck.ui import CheckLinkUI
 
 
 class MainWindow(QMainWindow):
@@ -13,8 +14,9 @@ class MainWindow(QMainWindow):
     界面初始化：
         创建1个main layout,包括左右两个子layout
     """
-    def __init__(self, tasks, base_path, parent=None):
+    def __init__(self, log, tasks, base_path, parent=None):
         super(MainWindow, self).__init__(parent)
+        self.log = log
         self.tasks = tasks
         self.base_path = base_path
         # 初始化界面
@@ -25,7 +27,7 @@ class MainWindow(QMainWindow):
         main_layout = QHBoxLayout()
         main_layout.setContentsMargins(0, 0, 0, 0)
         splitter = QSplitter(Qt.Horizontal)
-        splitter.addWidget(LeftSide())
+        splitter.addWidget(LeftSide(self.log, self.base_path))
         splitter.addWidget(RightSide(self.tasks))
         # 设置splitter的宽度以及比例
         splitter.setHandleWidth(4)
@@ -51,8 +53,10 @@ class MainWindow(QMainWindow):
 
 
 class LeftSide(QWidget):
-    def __init__(self, parent=None):
+    def __init__(self, log, base_path, parent=None):
         super(LeftSide, self).__init__(parent)
+        self.log = log
+        self.base_path = base_path
         self.initUI()
 
     def initUI(self):
@@ -139,8 +143,8 @@ class LeftSide(QWidget):
         return reset_button
 
     def click_link(self):
-        pass
-
+        link_ui = CheckLinkUI(self.log, self.base_path, self)
+        link_ui.show()
 
 
 class RightSide(QWidget):
@@ -343,10 +347,14 @@ class RightDownSide(QWidget):
         self.tree_model.removeRow(index)
 
 
-def run(tasks, base_path):
+def run(log, tasks, base_path):
     app = QApplication(sys.argv)
     # main_window = LeftSide()
-    main_window = MainWindow(tasks, base_path)
+    ft = QFont()
+    ft.setPointSize(11)
+    ft.setFamily('宋体')
+    app.setFont(ft)
+    main_window = MainWindow(log, tasks, base_path)
     main_window.show()
     sys.exit(app.exec_())
 

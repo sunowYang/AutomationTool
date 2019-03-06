@@ -22,7 +22,7 @@ class Config:
         dic = {}
         self.log.logger.info('Read config.ini')
         if not os.path.exists(self.config_path):
-            raise IOError('No found config file')
+            raise IOError('No found config file:%s' % self.config_path)
 
         self.config.read(self.config_path)
         if section is None:
@@ -50,7 +50,9 @@ class Config:
             for key, value in data.items():
                 if isinstance(value, list) and len(value) > 1:
                     value = ','.join(iter(value))
-                self.config.set('signature', key, value)
+                elif isinstance(value, list) and len(value) == 1:
+                    value = value[0]
+                self.config.set(section, key, value)
             self.config.write(open(self.config_path, 'w'))
             self.log.logger.info('write config successfully')
         except Exception, e:
@@ -59,10 +61,12 @@ class Config:
 
     def modify(self, section, data):
         try:
+            if not os.path.exists(self.config_path):
+                self.create()
             self.config.read(self.config_path)
             if section not in self.config.sections():
                 self.config.add_section(section)
-            for key, value in data.items:
+            for key, value in data.items():
                 if isinstance(value, list) and len(value) > 1:
                     value = ','.join(iter(value))
                 elif isinstance(value, list) and len(value) == 1:
@@ -71,9 +75,13 @@ class Config:
             self.config.write(open(self.config_path, 'r+'))
             self.log.logger.info('save config successfully')
         except Exception, e:
-            self.log.logger.error(e)
-            raise IOError('write config failed:%s' % e)
+            self.log.logger.error(e.message)
+            raise IOError('修改配置文件失败:%s' % e.message)
 
+    def create(self):
+        if os.path.exists(self.config_path):
+            return
+        open(self.config_path, 'w').close()
 
 
 

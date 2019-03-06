@@ -1,5 +1,91 @@
 # -*- coding: utf-8 -*-#
 
+STYLE = """
+            QCheckBox { spacing: 10px; height: 35px;}
+            QCheckBox::indicator{ width: 20px; height: 20px;}
+            QCheckBox::indicator:unchecked{ image:url(res/check_unsel.png);}
+            QCheckBox::indicator:checked{ image:url(res/check_sel.png);}
+            
+            QLineEdit{
+                    height: 25px;
+                    font: 15px;
+                    border: 1px solid #D7D7D7;
+                    selection-color: white;
+                    margin: 2px; 
+            }
+            QPushButton {height: 25px;
+                         width: 55px;
+                         text-align:center;
+                         color: #666666;
+                         background-color: #FFFFFF;
+                         border: 1px solid #4BAEB3;
+                         padding-left: 10px;
+                         padding-right: 10px;
+            }   
+            QPushButton:hover {
+                               background-color: #EDF7F8;
+                               border: 1px solid #BCE0E2;
+            }
+
+            QRadioButton { spacing: 10px;}
+            QRadioButton::indicator {width: 20px;height: 20px;}
+            QRadioButton::indicator:unchecked {image:url(res/radio_unchecked.png);}
+            QRadioButton::indicator:checked {image:url(res/radio_checked.png);}
+            
+            QProgressBar{background-color:#FFFFFF; text-align:center;}
+            QProgressBar::chunk{Background-color: #4BAEB3;}
+            
+"""
+CHOICE_BUTTON = """
+            QPushButton {height: 25px;
+                         background-color: #FFFFFF;
+                         border: 1px solid #A5A5A5;
+                         padding-left: 10px;
+                         padding-right: 10px;
+            }   
+            QPushButton:hover {color: white;
+                               border: 1px solid #4BAEB3;
+                               background-color: #4BAEB3;
+            }
+
+"""
+
+FOCUS_BUTTON = """
+            QPushButton {height: 25px;
+                         width: 50px;
+                         text-align:center;
+                         color: #666666;
+                         background-color: #FFFFFF;
+                         border: 2px solid #4BAEB3;
+                         padding-left: 10px;
+                         padding-right: 10px;
+            }   
+            QPushButton:hover {
+                               background-color: #EDF7F8;
+                               border: 1px solid #BCE0E2;
+            }
+
+"""
+
+DISABLE_BUTTON = """
+            QPushButton {height: 25px;
+                         width: 50px;
+                         text-align:center;
+                         color: #666666;
+                         background-color: #EDF7F8;
+                         border: 1px solid #BCE0E2;
+                         padding-left: 10px;
+                         padding-right: 10px;
+            }   
+            QPushButton:hover {
+                               background-color: #EDF7F8;
+                               border: 1px solid #BCE0E2;
+            }
+
+"""
+
+
+
 
 class Style:
     STYLE = """
