@@ -20,7 +20,7 @@ class Config:
 
     def read(self, section=None):
         dic = {}
-        self.log.logger.info('Read config.ini')
+        # self.log.logger.info('Read config.ini')
         if not os.path.exists(self.config_path):
             raise IOError('No found config file:%s' % self.config_path)
 

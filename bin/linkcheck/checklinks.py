@@ -10,13 +10,16 @@ class CheckLink:
         self.strings = strings
         self.package_path = package_path
         self.language_config_path = os.path.join(base_path, 'config', 'linkcheck', 'language.ini')
+        self.config = Config(self.log, self.language_config_path)
+
         self.language, self.version = self.get_language_version()
         self.package_path = self.get_package_path()
         self.id = strings['ID'] if 'ID' in strings.keys() else None
         self.link = strings['link'] if 'link' in strings.keys() else None
-        self.language = strings['language'] if 'language' in strings.keys() else None
+        # self.language_chinese = strings['language'] if 'language' in strings.keys() else None
         self.outer_link_id = ['CTPANL', 'STARTP', 'UNINST', 'INSTALL', 'UNINSTALL',
-                              'HELP_ONLINE', 'ID_LINK_BUY_', 'ID_LINK_HONE_BUY']
+                              'HELP_ONLINE', 'ID_LINK_BUY_', 'ID_LINK_HOME_BUY']
+        self.share_net = ['email', 'google+', 'twitter', 'facebook']
 
         self.failed_excel_link = ''
         self.failed_program_link = ''
@@ -32,7 +35,6 @@ class CheckLink:
             return package
         else:
             return self.package_path
-
 
     def get_language_version(self):
         if self.strings['language']:
@@ -58,7 +60,7 @@ class CheckLink:
 
     def get_program_link(self):
         for outer_id in self.outer_link_id:
-            if outer_id in self.id:
+            if (outer_id != 'ID_LINK_HOME_BUY' and outer_id in self.id) or self.id == 'ID_LINK_HOME_BUY':
                 program_link = self.get_program_link_from_install_file()
                 break
         else:
@@ -71,23 +73,26 @@ class CheckLink:
         if not ini_path:
             return False
         config = Config(self.log, ini_path)
-        url = config.read('text') if self.id.lower() != 'email' else config.read('ContactProductManegerUrl')
+        url = config.read('text') if self.id.lower() not in self.share_net else config.read('ContactProductManegerUrl')
+        # google转换
+        self.id = 'google%2b' if self.id == 'google+' else self.id
         if self.id.lower() not in url.keys():
-            self.log.logger.error('No found key:%s in common_url.ini' % self.id)
+            self.log.logger.error('No found key:%s in %s' % (self.id, ini_path))
             return False
         link = url[self.id.lower()].lower()
         return link if 'mailto' not in link else link.split(':')[1]
 
     def get_program_link_from_install_file(self):
-        return GetLinkFromInstallFile(self.language, self.version, self.id, self.package_path).get_link()
+        return GetLinkFromInstallFile(self.config.read('translate')[self.language],
+                                      self.version, self.id, self.package_path).get_link()
 
     def get_common_url_path(self):
-        if self.package_path.endswith(self.version):
+        if self.package_path.lower().endswith(self.version):
             if self.version == 'xagon':
                 url_path = os.path.join(self.package_path, r'{app}\bin', 'common_url,2.ini')
             else:
-                url_name = Config(self.log, self.language_config_path).read('url')
-                url_path = os.path.join(self.package_path, r'{app}\bin', url_name[self.language])
+                url_name = self.config.read('url')
+                url_path = os.path.join(self.package_path, r'{app}\bin', url_name[self.language.encode('utf8')])
             # TB特殊处理efrontier日语版(链接文件为common_url,12.ini)
             if self.version == 'efrontier' and self.language == '日语':
                 url_path = os.path.join(self.package_path, r'{app}\bin', 'common_url,12.ini')
@@ -131,9 +136,9 @@ class GetLinkFromInstallFile:
         self.id = _id
         self.package_path = package_path
 
-    def filter_link(self, file_name=u'安装脚本.iss'):
-        file_path = os.path.exists(os.path.join(self.package_path, file_name))
-        if not file_path:
+    def filter_link(self, file_name=u"安装脚本.iss"):
+        file_path = os.path.join(self.package_path, file_name)
+        if not os.path.exists(file_path):
             raise IOError('No found iss file:%s' % file_path)
         with open(file_path, 'r') as f:
             content = f.read()

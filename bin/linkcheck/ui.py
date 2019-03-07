@@ -7,8 +7,6 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from bin.ui.style import *
 from functools import partial
-import threading
-from time import sleep
 from bin.ui.log import LogUI
 from bin.config import Config
 from run import RunCheck
@@ -34,8 +32,8 @@ class CheckLinkUI(QDialog):
 
         self.proceed_btn = QPushButton('执行')
         self.exit_btn = QPushButton('退出')
-        self.cancel_btn = QPushButton('取消')
-        self.cancel_btn.setVisible(False)
+        self.result_btn = QPushButton('结果')
+        self.result_btn.setVisible(False)
 
         self.setting_ui = SettingUI(self.log, self.run_path, self)
         self.log_ui = LogUI(self.log, self.run_path)
@@ -55,7 +53,7 @@ class CheckLinkUI(QDialog):
         self.exit_btn.clicked.connect(self.close)
         self.run.progress_message.connect(self.update_progress)
         self.start_run_signal.connect(self.run.run)
-        self.cancel_btn.clicked.connect(self.cancel)
+        self.result_btn.clicked.connect(self.open_result)
 
         # ui settings
         self.setWindowTitle('链接检查')
@@ -76,7 +74,6 @@ class CheckLinkUI(QDialog):
             self.setting_ui.save()
             self.setting_ui.setVisible(False)
             self.log_ui.setVisible(True)
-            self.cancel_btn.setVisible(True)
             self.proceed_btn.setVisible(False)
 
             self.thread_poll.start()
@@ -87,17 +84,20 @@ class CheckLinkUI(QDialog):
     def proceed_layout(self):
         layout = QHBoxLayout()
         layout.addStretch(1)
+        layout.addWidget(self.result_btn)
         layout.addWidget(self.proceed_btn)
         layout.addWidget(self.exit_btn)
-        layout.addWidget(self.cancel_btn)
         return layout
 
     def update_progress(self, progress, string):
         self.log_ui.progress_bar.setValue(progress)
-        self.log_ui.text_box.append(string)
+        if string != '':
+            self.log_ui.text_box.append(string)
+        if progress == 100:
+            self.result_btn.setVisible(True)
 
-    def cancel(self):
-        self.stop_run_signal.emit()
+    def open_result(self):
+        pass
 
     def stop(self):
         print 11111
@@ -136,7 +136,7 @@ class SettingUI(QWidget):
 
         # default data
         self.checked_style = 'background-color:#4BAEB3;color:#FFFFFF;'
-        self.display_versions = ['trail', 'ad', 'efrontier', 'xagon']
+        self.display_versions = ['trial', 'ad', 'efrontier', 'xagon']
         self.display_languages = ['All', '德语', '英语', '波兰语', '葡萄牙语', '西班牙语',
                                   '日语', '韩语', '法语', '意大利语', '繁体中文', '简体中文']
         self.display_language_buttons = []
@@ -296,7 +296,6 @@ class SettingUI(QWidget):
         self.specify_btn_file.clicked.connect(self.specify_btn_file_click)
         self.specify_btn_dir.clicked.connect(self.specify_btn_dir_click)
         self.download_btn_dir.clicked.connect(self.download_btn_dir_click)
-
 
     def save(self):
         # check data
