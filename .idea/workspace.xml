@@ -19,11 +19,6 @@
       <change beforePath="$USER_HOME$/Desktop/TB_md5/md5.py" afterPath="$USER_HOME$/Desktop/TB_md5/md5.py" />
       <change beforePath="$USER_HOME$/Desktop/TB_md5/tb package.doc" afterPath="$USER_HOME$/Desktop/TB_md5/tb package.doc" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/config.py" afterPath="$PROJECT_DIR$/bin/config.py" />
-      <change beforePath="$PROJECT_DIR$/bin/linkcheck/checklinks.py" afterPath="$PROJECT_DIR$/bin/linkcheck/checklinks.py" />
-      <change beforePath="$PROJECT_DIR$/bin/linkcheck/getlinks.py" afterPath="$PROJECT_DIR$/bin/linkcheck/getlinks.py" />
-      <change beforePath="$PROJECT_DIR$/bin/linkcheck/run.py" afterPath="$PROJECT_DIR$/bin/linkcheck/run.py" />
-      <change beforePath="$PROJECT_DIR$/bin/linkcheck/ui.py" afterPath="$PROJECT_DIR$/bin/linkcheck/ui.py" />
       <change beforePath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" afterPath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" />
       <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" />
       <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
@@ -586,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551860953145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1、修改BUG">
+      <created>1551929614381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551929614381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -621,9 +623,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、更新说明文档" />
     <MESSAGE value="1、修改日志" />
-    <MESSAGE value="1、修改BUG" />
     <MESSAGE value="1、修改链接相关BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、修改链接相关BUG" />
+    <MESSAGE value="1、修改BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、修改BUG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
