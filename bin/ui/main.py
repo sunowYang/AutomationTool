@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from task import TaskSetting
+from tasksetting import TaskSetting
 from style import STYLE, Style
 from bin.automation.runcase import *
 from bin.linkcheck.ui import CheckLinkUI

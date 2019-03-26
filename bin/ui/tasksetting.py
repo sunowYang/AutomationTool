@@ -8,12 +8,14 @@ from option import OptionWnd
 
 
 class TaskSetting(QDialog):
-    def __init__(self, parent=None):
+    def __init__(self, settings=None, parent=None):
         super(TaskSetting, self).__init__(parent)
+        self.settings = None    # 任务设置参数，如果是新建，参数为空，如果是编辑任务，需传递具体参数
+
         self.case_location = QLineEdit()
         self.result_location = QLineEdit()
         self.task_name = QLineEdit()
-        self.setStyleSheet(Style.COMMON_STYLE)
+        # self.setStyleSheet(Style.COMMON_STYLE)
         self.initUI()
 
     def initUI(self):
