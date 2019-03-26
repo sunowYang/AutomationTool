@@ -27,6 +27,8 @@ class CheckLinkUI(QDialog):
         self.run = RunCheck(self.log, self.run_path)
         self.thread_poll = QThread()
         self.run.moveToThread(self.thread_poll)
+        self.result_path = os.path.join(self.run_path, 'result', 'linkcheck\\').replace('/', '\\')
+
 
         # widget
 
@@ -96,8 +98,16 @@ class CheckLinkUI(QDialog):
         if progress == 100:
             self.result_btn.setVisible(True)
 
+            # 结果路径
+            if string:
+                self.result_path = string.replace('/', '\\')
+
     def open_result(self):
-        pass
+        if os.path.exists(self.result_path):
+            print self.result_path
+            os.system(r'explorer /select,"%s"' % self.result_path)
+        else:
+            QMessageBox.information('错误', '结果目录不存在：'+self.result_path)
 
     def stop(self):
         print 11111
@@ -127,6 +137,8 @@ class SettingUI(QWidget):
         self.edit_download = QLineEdit()
         self.download_btn_dir = QPushButton('浏览')
         # self.download_btn_dir.setStyleSheet(STYLE)
+
+        self.click_TB_ui_checkbox = QCheckBox('通过点击TB界面获取链接')
 
         self.group_box = QButtonGroup()
         self.group_box.addButton(self.radio_specify)
@@ -170,6 +182,9 @@ class SettingUI(QWidget):
         if self.data and 'downloadpath' in self.data.keys():
             self.edit_download.setText(self.data['downloadpath'])
 
+        if self.data and 'click_tb' in self.data.keys():
+            self.click_TB_ui_checkbox.setChecked(True) if self.data['click_tb'] == '1' else None
+
         self.radio_download.setChecked(True) if self.download else self.radio_specify.setChecked(True)
         self.radio_logic()
 
@@ -191,6 +206,7 @@ class SettingUI(QWidget):
         layout.addLayout(self.specify_layout())
         layout.addWidget(self.radio_download)
         layout.addLayout(self.download_layout())
+        layout.addWidget(self.click_TB_ui_checkbox)
         layout.addSpacing(20)
         layout.addStretch()
 
@@ -310,13 +326,17 @@ class SettingUI(QWidget):
 
             if not self.edit_specify.text():
                 raise IOError('请指定安装包/解压文件的目录')
+        if self.click_TB_ui_checkbox.isChecked():
+            click_tb = '1'
+        else:
+            click_tb = '0'
 
         data = {'CheckVersion': self.checked_versions, 'CheckLanguage': self.checked_languages,
                 'SpecifyPath': self.edit_specify.text(), 'download': '1' if self.download else '0',
-                'DownloadPath': self.edit_download.text()}
+                'DownloadPath': self.edit_download.text(), 'click_tb': click_tb}
         download_versions = []
         for version in self.checked_versions:
-            if version == 'trail':
+            if version == 'trial':
                 download_versions.append('Trial.exe')
             else:
                 download_versions.append('Trial_'+version+'.exe')

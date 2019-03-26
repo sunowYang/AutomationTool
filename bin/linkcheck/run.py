@@ -25,10 +25,11 @@ class RunCheck(QObject):
         self.data = {}
 
     def run(self):
+        new_link_excel = ''
         try:
             self.progress_message.emit(5, '正在初始化...')
             self.data = Config(self.log, self.config_path).read()
-            self.progress_message.emit(10, '开始下载和解压')
+            self.progress_message.emit(10, '开始下载和解压...')
             uncompressed_path = self.download_and_uncompress()
             self.progress_message.emit(45, '下载解压完成,获取excel链接')
 
@@ -36,12 +37,18 @@ class RunCheck(QObject):
             max_row = link.get_link(self.data['checkversion'], self.data['checklanguage'])
             new_link_excel = link.new_excel_path
             self.progress_message.emit(60, '开始检查excel链接')
+            _progress = float(max_row)/40
 
-            _progress = int(float(max_row)/40)
+            if 'click_tb' in self.data.keys() and self.data['click_tb'] == '1':
+                self.progress_message.emit(60, '通过点击TB界面获取链接')
             for row in range(1, max_row):
                 strings = link.read_data_by_row(row)
-                check = CheckLink(self.log, strings, uncompressed_path, self.base_path)
-                result = check.check()
+                # 增加点击TB界面获取链接的方式，2019.03.26 ygx
+                if 'click_tb' in self.data.keys() and self.data['click_tb'] == '1':
+                    result = 'success'
+                else:
+                    check = CheckLink(self.log, strings, uncompressed_path, self.base_path)
+                    result = check.check()
                 self.write_result(row, result, new_link_excel)
                 progress = 60 + row/_progress
                 if result == 'Failed':
@@ -56,6 +63,9 @@ class RunCheck(QObject):
         except Exception as e:
             self.progress_message.emit(100, '检查失败:\n%s' % e.message)
             raise Exception('检查失败\n%s' % e.message)
+        finally:
+            self.progress_message.emit(100, new_link_excel)
+
 
     def download_and_uncompress(self):
         download_flag = '0' if 'download' not in self.data.keys() else self.data['download']

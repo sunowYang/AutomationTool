@@ -111,7 +111,7 @@ class WriteExcel(Excel):
             else:
                 workbook_copy.save(self.excel_path)
         except Exception, e:
-            raise IOError('Write excel failed:%s' % e)
+            raise IOError('Write excel failed:%s' % e.message)
 
     def set_col_width(self, sheet_name='Sheet1', **strings):
         self.check_if_exist()

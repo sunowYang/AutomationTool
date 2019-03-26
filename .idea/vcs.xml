@@ -7,6 +7,7 @@
     <mapping directory="$USER_HOME$/Desktop/TB_md5" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../DigitalSignature" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../UserInfoCheck" vcs="Git" />
     <mapping directory="D:/_WorkFile/2018/TestPlatform/Program/WebTest" vcs="svn" />
   </component>
 </project>
