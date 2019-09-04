@@ -1,7 +1,7 @@
 #! coding=utf8
 
 import os
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 
 
 def get_tasks(log, task_path):

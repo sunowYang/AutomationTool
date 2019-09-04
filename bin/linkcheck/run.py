@@ -5,8 +5,8 @@ import os
 import sys
 import time
 from bin.download import Download
-from getlinks import GetLink
-from checklinks import CheckLink
+from .getlinks import GetLink
+from .checklinks import CheckLink
 from bin.config import Config
 from bin.excel import WriteExcel
 from PyQt5.QtCore import *
@@ -61,8 +61,8 @@ class RunCheck(QObject):
             # 设置列宽
             self.set_col_width(new_link_excel)
         except Exception as e:
-            self.progress_message.emit(100, '检查失败:\n%s' % e.message)
-            raise Exception('检查失败\n%s' % e.message)
+            self.progress_message.emit(100, '检查失败:\n%s' % e.args[0])
+            raise Exception('检查失败\n%s' % e.args[0])
         finally:
             self.progress_message.emit(100, new_link_excel)
 

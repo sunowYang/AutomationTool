@@ -3,8 +3,8 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from tasksetting import TaskSetting
-from style import STYLE, Style
+from .tasksetting import TaskSetting
+from .style import STYLE, Style
 from bin.automation.runcase import *
 from bin.linkcheck.ui import CheckLinkUI
 
@@ -88,7 +88,7 @@ class LeftSide(QWidget):
     def task_setting(self):
         task = TaskSetting(self)
         if task.exec_():
-            print '1111'
+            print('1111')
 
     def tasks(self):
         task_button = QPushButton("工具列表")

@@ -6,8 +6,8 @@ import sys
 from shutil import copy, copytree
 from bin.log import MyLog
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 
 
 class Download:
@@ -15,7 +15,7 @@ class Download:
         self.log = log
 
     def download(self, source, target, _filter=None, ignore=None):
-        source = source.encode('gbk')
+        # source = source.encode('gbk')
         self.log.logger.info('Start to download file or dir')
         try:
             if source.startswith('http') or source.startswith('www'):
@@ -24,9 +24,9 @@ class Download:
                 return self.download_dir(source, target, _filter, ignore)
             elif os.path.isfile(source):
                 return self.download_file(source, target)
-        except Exception, e:
-            self.log.logger.error(e.message)
-            raise IOError('Download file or dir error:' % e.message)
+        except Exception as e:
+            self.log.logger.error(e)
+            raise IOError('Download file or dir error:' % e)
         # self.log.logger.info('Download file or dir end')
 
     @staticmethod
@@ -94,4 +94,4 @@ class Download:
 if __name__ == '__main__':
     log = MyLog(r'C:\Users\yuanbin\Desktop', 'log.log')
     download = Download(log)
-    print download.download(r'C:\Users\yuanbin\Desktop\TB_md5', r'D:\setup', _filter='.py,.doc')
+    print(download.download(r'C:\Users\yuanbin\Desktop\TB_md5', r'D:\setup', _filter='.py,.doc'))

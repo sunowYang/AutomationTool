@@ -22,4 +22,4 @@ if __name__ == '__main__':
     try:
         run(LOG, get_tasks(LOG, TASK_PATH), BASE_PATH)
     except Exception as e:
-        QMessageBox.information('错误', e.message)
+        QMessageBox.information('错误', e)

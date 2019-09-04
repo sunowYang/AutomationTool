@@ -40,7 +40,9 @@ class GetLink:
         excel_open = xlrd.open_workbook(self.excel_path)
 
         for sheet_name in excel_open.sheet_names():
-            sheet_name = sheet_name.encode('utf-8')
+            # python3中无需转码
+            # sheet_name = sheet_name.encode('utf-8')
+
             version = self.convert_version(sheet_name)
             # 筛选要检查的版本
             if not self.version_filter(checked_version, version):
@@ -53,7 +55,9 @@ class GetLink:
                 if version == 'trial' or version == 'xagon':
                     language = sheet_name
                 else:
-                    language = sheet.cell_value(start_row, col).encode('utf-8')
+                    # python3中无需转码
+                    # language = sheet.cell_value(start_row, col).encode('utf-8')
+                    language = sheet.cell_value(start_row, col)
                 language = language if '链接' not in language else language.replace('链接', '')
                 if language not in checked_language:
                     self.log.logger.info('No need to get language:%s links' % language)
@@ -65,7 +69,9 @@ class GetLink:
                     if sheet_name == 'efrontier' or sheet_name == '广告':
                         strings['language'] = sheet_name + '_' + language
                     else:
-                        strings['language'] = sheet_name.decode('utf8')
+                        # python3中无需转码
+                        strings['language'] = sheet_name
+                        # strings['language'] = sheet_name.decode('utf8')
                     # 排除ROW23这一列
                     if strings['ID'] == 'ROW_23':
                         continue

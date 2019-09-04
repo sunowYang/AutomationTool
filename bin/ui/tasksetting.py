@@ -3,8 +3,8 @@ import sys
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from style import Style
-from option import OptionWnd
+from .style import Style
+from .option import OptionWnd
 
 
 class TaskSetting(QDialog):
@@ -257,7 +257,7 @@ class ComputerTree2(QWidget):
 
     def mouseMoveEvent(self, evt):
         self.current_index = evt.y()/36
-        print self.current_index
+        print(self.current_index)
 
 
 class ComputerTree3(QTreeWidget):

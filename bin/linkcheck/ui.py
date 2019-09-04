@@ -9,11 +9,11 @@ from bin.ui.style import *
 from functools import partial
 from bin.ui.log import LogUI
 from bin.config import Config
-from run import RunCheck
+from .run import RunCheck
 
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 
 
 class CheckLinkUI(QDialog):
@@ -81,7 +81,7 @@ class CheckLinkUI(QDialog):
             self.thread_poll.start()
             self.start_run_signal.emit()
         except Exception as e:
-            QMessageBox.information(self, '错误', e.message)
+            QMessageBox.information(self, '错误', e)
 
     def proceed_layout(self):
         layout = QHBoxLayout()
@@ -104,13 +104,13 @@ class CheckLinkUI(QDialog):
 
     def open_result(self):
         if os.path.exists(self.result_path):
-            print self.result_path
+            print(self.result_path)
             os.system(r'explorer /select,"%s"' % self.result_path)
         else:
             QMessageBox.information('错误', '结果目录不存在：'+self.result_path)
 
     def stop(self):
-        print 11111
+        print(11111)
         self.thread_poll.quit()
 
 

@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="3f43b771-8ef9-4c0b-9c88-76217dc01a74" name="Default" comment="1、修改BUG">
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/Main.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/__init__.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/SourceMonitor.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/__init__.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/log.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/run.py" />
-      <change beforePath="" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/test.html" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/Common/download.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/Common/download.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/MD5Check/checkmd5.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/MD5Check/checkmd5.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/UI/TBUI.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/UI/TBUI.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/get_webserver_time.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/get_webserver_time.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/test.py" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/test.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_md5/md5.py" afterPath="$USER_HOME$/Desktop/TB_md5/md5.py" />
-      <change beforePath="$USER_HOME$/Desktop/TB_md5/tb package.doc" afterPath="$USER_HOME$/Desktop/TB_md5/tb package.doc" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/ui/main.py" afterPath="$PROJECT_DIR$/bin/ui/main.py" />
-      <change beforePath="$PROJECT_DIR$/bin/ui/task.py" afterPath="$PROJECT_DIR$/bin/ui/tasksetting.py" />
-      <change beforePath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" afterPath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" />
-      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/style.py" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/style.py" />
-      <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/db.sqlite3" />
-      <change beforePath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" afterPath="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
+    <list default="true" id="3f43b771-8ef9-4c0b-9c88-76217dc01a74" name="Default" comment="1、修改BUG">
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result" afterDir="true" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor" afterDir="true" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/Main.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin" afterDir="true" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/SourceMonitor.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/log.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/ProcessMonitor/bin/run.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/TB_SCRIPT/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/cloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/showdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserInfoCheck/config/aliyun.ini" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/Common/download.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/Common/download.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature" beforeDir="true" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature" afterDir="true" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/DigitalSignature.iml" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/DigitalSignature.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/download.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/download.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/excel.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/excel.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/start.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/start.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/ui.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/ui.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/log.log" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/abc.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/abc.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_140238.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_140238.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_140713.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_140713.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_141543.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_141543.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_141707.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190117_141707.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_112329.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_112329.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_151546.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_151546.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_164337.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190424_164337.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_164558.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_164558.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_174958.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_174958.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_175759.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_175759.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_180250.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_180250.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_180757.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_180757.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_181236.xls" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/result/result_20190428_181236.xls" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/MD5/MD5_UI/TestMD5.exe" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/MD5/MD5_UI/TestMD5.exe" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/MD5/MD5_UI/TestMD5.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/MD5/MD5_UI/TestMD5.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/MD5Check/checkmd5.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/MD5Check/checkmd5.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/UI/TBUI.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/UI/TBUI.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/get_webserver_time.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/get_webserver_time.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/TB_SCRIPT/test.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/TB_SCRIPT/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutomationTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutomationTool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gettasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gettasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/linkcheck/getlinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/linkcheck/getlinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/linkcheck/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/linkcheck/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/linkcheck/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/linkcheck/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/option.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/option.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/tasksetting.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/tasksetting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/linkcheck/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/linkcheck/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/linkcheck/link.xls" beforeDir="false" afterPath="$PROJECT_DIR$/config/linkcheck/link.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/.idea/DigitalSignature.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/.idea/DigitalSignature.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/bin/Run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/bin/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/bin/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/bin/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/bin/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalSignature/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalSignature/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/.idea/UserInfoCheck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/.idea/UserInfoCheck.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/shun/FileApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/shun/FileApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/shun/FileOpreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/shun/FileOpreation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/ProductInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/ProductInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/details.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/bin/ui/style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/config/product.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/config/product.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserInfoCheck/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInfoCheck/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,95 +92,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="AutomationTool" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
-              <folding>
-                <element signature="e#16#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasksetting.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/ui/tasksetting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/linkcheck/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/linkcheck/ui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="314" column="0" lean-forward="true" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#25#0" expanded="true" />
-                <element signature="e#468#1172#0" expanded="false" />
-                <element signature="e#1200#1935#0" expanded="false" />
-                <element signature="e#1986#2121#0" expanded="false" />
-                <element signature="e#2154#2496#0" expanded="false" />
-                <element signature="e#2536#2734#0" expanded="false" />
-                <element signature="e#2793#3086#0" expanded="false" />
-                <element signature="e#3123#3346#0" expanded="false" />
-                <element signature="e#6930#7723#0" expanded="false" />
-                <element signature="e#7774#7909#0" expanded="false" />
-                <element signature="e#7958#8631#0" expanded="false" />
-                <element signature="e#8681#9923#0" expanded="false" />
-                <element signature="e#9963#10146#0" expanded="false" />
-                <element signature="e#10187#10324#0" expanded="false" />
-                <element signature="e#10361#11325#0" expanded="false" />
-                <element signature="e#10408#10848#0" expanded="false" />
-                <element signature="e#11358#11695#0" expanded="false" />
-                <element signature="e#11725#12899#0" expanded="false" />
-                <element signature="e#12947#14646#0" expanded="false" />
-                <element signature="e#14694#14819#0" expanded="false" />
-                <element signature="e#14866#14977#0" expanded="false" />
-                <element signature="e#15025#15137#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,127 +107,30 @@
       <find>count</find>
       <find>count()</find>
       <find>NoFocus</find>
+      <find>decode</find>
+      <find>encode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/bin/automation/runcase.py" />
-        <option value="$PROJECT_DIR$/bin/automation/gettasks.py" />
-        <option value="$PROJECT_DIR$/bin/signature.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/GetFileInfo.py" />
-        <option value="D:/_WorkFile/2018/TestPlatform/Program/WebTest/templates/resources.html" />
-        <option value="D:/python/py_scripts/AutoInstallEPM.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/WriteResult.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/使用说明.txt" />
-        <option value="$PROJECT_DIR$/../DigitalSignature/bin/Config.py" />
-        <option value="$PROJECT_DIR$/bin/gettasks.py" />
-        <option value="$PROJECT_DIR$/bin/ui/signature.py" />
-        <option value="$PROJECT_DIR$/../DigitalSignature/config/config.ini" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/config/config.ini" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/DownLoadAndUncompress.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/Main.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Run.py" />
-        <option value="$USER_HOME$/Desktop/TB_md5/md5.py" />
-        <option value="$PROJECT_DIR$/bin/parse.py" />
-        <option value="$PROJECT_DIR$/bin/ui/task.py" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/bin/signature/start.py" />
-        <option value="$PROJECT_DIR$/bin/runtask.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/style.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/download.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/start.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/run.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/getfileinfo.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/ui.py" />
-        <option value="$USER_HOME$/Desktop/TB_SCRIPT/readlog/LogFilter.py" />
-        <option value="$PROJECT_DIR$/bin/ui/logging.py" />
-        <option value="$PROJECT_DIR$/bin/ui/log.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/log.py" />
-        <option value="$PROJECT_DIR$/bin/ui/download.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/result.py" />
-        <option value="$PROJECT_DIR$/bin/ui/main.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/style.py" />
-        <option value="$PROJECT_DIR$/bin/ui/style.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/bin/download.py" />
-        <option value="$PROJECT_DIR$/config/linkcheck/config.ini" />
-        <option value="$PROJECT_DIR$/bin/config.py" />
-        <option value="$PROJECT_DIR$/config/linkcheck/language.ini" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/getlinks.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/checklinks.py" />
-        <option value="$PROJECT_DIR$/bin/excel.py" />
-        <option value="$PROJECT_DIR$/../UserInfoCheck/test.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/run.py" />
-        <option value="$PROJECT_DIR$/bin/linkcheck/ui.py" />
-        <option value="$PROJECT_DIR$/bin/ui/tasksetting.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
-  </component>
+  <component name="ProjectId" id="1QMm0ZKIYGoKVIYJAf5buuJD0KX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTool" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UserInfoCheck" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/yuanbin/Documents/GitHub/AutomationTool/bin/option.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -269,19 +140,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\github\AutomationTool\bin" />
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tools" />
+      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
+      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\readlog" />
+      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature\run" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\config\linkcheck" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tools" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tasks\file" />
       <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin\ui" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\tools" />
-      <recent name="C:\Users\yuanbin\Documents\GitHub\AutomationTool\bin" />
-      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\readlog" />
-      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature\run" />
-      <recent name="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature\tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,8 +167,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.excel">
     <configuration name="download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomationTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -308,14 +180,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomationTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -326,14 +202,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="ride" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -344,14 +224,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="robot" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:/Python27/Scripts/ride.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomationTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -362,34 +246,60 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutomationTool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomationTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/linkcheck" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/linkcheck/ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -397,129 +307,109 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="DigitalSignature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DigitalSignature" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.run" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ride" />
-      <item index="2" class="java.lang.String" itemvalue="Python.excel" />
-      <item index="3" class="java.lang.String" itemvalue="Python.download" />
+    <list>
+      <item itemvalue="Python.download" />
+      <item itemvalue="Python.excel" />
+      <item itemvalue="Python.ride" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.ui" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.run" />
-        <item index="1" class="java.lang.String" itemvalue="Python.download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.excel" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ride" />
+      <list>
+        <item itemvalue="Python.excel" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.ui" />
+        <item itemvalue="Python.download" />
+        <item itemvalue="Python.ride" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\yuanbin\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\Automatic antivirus script" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\Automatic antivirus script" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT" />
         </SvnCopyRootSimple>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\TB_md5" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\TB_md5" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT\DigitalSignature" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
-          <option name="myCopyRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT\DigitalSignature" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT\DigitalSignature" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\Automatic antivirus script" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\Automatic antivirus script" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\TB_md5" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\TB_md5" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT" />
-          <option name="myCopyRoot" value="C:\Users\yuanbin\Desktop\TB_SCRIPT" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
-          <option name="myCopyRoot" value="D:\_WorkFile\2018\TestPlatform\Program\WebTest" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\TB_SCRIPT" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -531,6 +421,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532155400480</updated>
+      <workItem from="1567588621429" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="1、更新说明文档">
       <created>1545897484519</created>
@@ -577,34 +468,12 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2273371" sideWeight="0.47528517" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24781342" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21656051" sideWeight="0.5176991" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19192635" sideWeight="0.5247148" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41690964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、更新说明文档" />
@@ -614,396 +483,8 @@
     <MESSAGE value="1、链接检查增加点击TB界面的功能（底层代码未完成）" />
     <option name="LAST_COMMIT_MESSAGE" value="1、链接检查增加点击TB界面的功能（底层代码未完成）" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="72" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/automation/runcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/option_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/Common/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/MD5_FOR_TB/CheckMD5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="542" column="0" lean-forward="false" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/readlog/easeus.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/readlog/easeus_filter.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/readlog/LogFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/AutomationTool/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robot/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="539" column="10" lean-forward="false" selection-start-line="539" selection-start-column="10" selection-end-line="539" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="797" column="4" lean-forward="false" selection-start-line="797" selection-start-column="4" selection-end-line="797" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Scripts/ride.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robotide/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="95" column="13" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robotide/run/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robotide/run/ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robotide/application/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/log.py" />
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TB_SCRIPT/DigitalSignature/bin/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QFileDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="154" column="25" lean-forward="true" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/style.py" />
-    <entry file="file://$PROJECT_DIR$/log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1192">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/linkcheck/language.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/getlinks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="114" column="73" lean-forward="false" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/checklinks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="80" lean-forward="false" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding>
-            <element signature="e#99#1488#0" expanded="false" />
-            <element signature="e#1520#5121#0" expanded="false" />
-            <element signature="e#1878#2326#0" expanded="false" />
-            <element signature="e#2401#2816#0" expanded="false" />
-            <element signature="e#2900#3423#0" expanded="false" />
-            <element signature="e#3504#4335#0" expanded="false" />
-            <element signature="e#4406#5121#0" expanded="false" />
-            <element signature="e#5152#7690#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/pkg_resources/extern/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/pkg_resources/_vendor/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/utils/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../UserInfoCheck/test.py" />
-    <entry file="file://C:/Python27/Lib/ConfigParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="598" column="0" lean-forward="false" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="259" column="41" lean-forward="true" selection-start-line="259" selection-start-column="41" selection-end-line="259" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/linkcheck/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="314" column="0" lean-forward="true" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <element signature="e#468#1172#0" expanded="false" />
-            <element signature="e#1200#1935#0" expanded="false" />
-            <element signature="e#1986#2121#0" expanded="false" />
-            <element signature="e#2154#2496#0" expanded="false" />
-            <element signature="e#2536#2734#0" expanded="false" />
-            <element signature="e#2793#3086#0" expanded="false" />
-            <element signature="e#3123#3346#0" expanded="false" />
-            <element signature="e#6930#7723#0" expanded="false" />
-            <element signature="e#7774#7909#0" expanded="false" />
-            <element signature="e#7958#8631#0" expanded="false" />
-            <element signature="e#8681#9923#0" expanded="false" />
-            <element signature="e#9963#10146#0" expanded="false" />
-            <element signature="e#10187#10324#0" expanded="false" />
-            <element signature="e#10361#11325#0" expanded="false" />
-            <element signature="e#10408#10848#0" expanded="false" />
-            <element signature="e#11358#11695#0" expanded="false" />
-            <element signature="e#11725#12899#0" expanded="false" />
-            <element signature="e#12947#14646#0" expanded="false" />
-            <element signature="e#14694#14819#0" expanded="false" />
-            <element signature="e#14866#14977#0" expanded="false" />
-            <element signature="e#15025#15137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/linkcheck/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/ui/tasksetting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutomationTool$excel.coverage" NAME="excel Coverage Results" MODIFIED="1567591677301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
   </component>
   <component name="masterDetails">
     <states>

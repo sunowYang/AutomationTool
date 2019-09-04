@@ -172,14 +172,14 @@ class OptionWnd(QDialog):
         if self.svn.update_checkbox.isChecked():
             data['svn'] = '1'
             data['address'] = self.svn_parameter.svn_address_lineedit.text()
-            print len(data['address'])
+            print(len(data['address']))
             if data['address'] == '':
                 self.button.error_message = 'SVN 地址不能为空'
             data['localaddress'] = self.svn_parameter.local_address_lineedit.text()
             data['username'] = self.svn_parameter.user_edit.text()
             data['password'] = self.svn_parameter.psd_edit.text()
-            print data['address'], data['localaddress']
-            print 1111
+            print(data['address'], data['localaddress'])
+            print(1111)
         # 读取安装包页面参数
         if self.package.update_checkbox.isChecked():
             data['package'] = '1'

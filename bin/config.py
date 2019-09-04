@@ -1,6 +1,6 @@
 #! coding=utf8
 
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 import os
 
 
@@ -37,7 +37,7 @@ class Config:
                 for section in sections:
                     for key in self.config.options(section):
                         dic[key] = self.config.get(section, key)
-            except Exception, e:
+            except Exception as e:
                 self.log.logger.error(e)
                 raise IOError('Read section %s failed:%s' % (section, e))
         return dic
@@ -55,7 +55,7 @@ class Config:
                 self.config.set(section, key, value)
             self.config.write(open(self.config_path, 'w'))
             self.log.logger.info('write config successfully')
-        except Exception, e:
+        except Exception as e:
             self.log.logger.error(e)
             raise IOError('write config failed:%s' % e)
 
@@ -74,7 +74,7 @@ class Config:
                 self.config.set(section, key, value)
             self.config.write(open(self.config_path, 'r+'))
             self.log.logger.info('save config successfully')
-        except Exception, e:
+        except Exception as e:
             self.log.logger.error(e.message)
             raise IOError('修改配置文件失败:%s' % e.message)
 
